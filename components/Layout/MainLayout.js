@@ -49,7 +49,7 @@ class MainLayout extends React.Component {
             padding-bottom: 32px;
           }
           .gnb li {
-            margin-right: 48px;
+            margin-right: 32px;
           }
           .active {
             border-bottom: 2px solid;
@@ -72,6 +72,9 @@ class MainLayout extends React.Component {
             }
             .gnb {
               margin-bottom: 0;
+            }
+            .gnb li {
+              margin-right: 48px;
             }
           }
         `}</style>
