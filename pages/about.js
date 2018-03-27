@@ -62,9 +62,6 @@ class About extends React.Component {
             }
           </ul>
         </section>
-        <style jsx>{`
-
-        `}</style>
       </AppLayout>
     )
   }
