@@ -97,8 +97,8 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 
 		.markdown .small-list--33,
 		.markdown .small-list--50 {
-			width: 50%;
-			max-width: 50%;
+			width: 100%;
+			max-width: 100%;
 			padding-right: 1rem;
 			margin-bottom: 1.5rem;
 		}
@@ -128,9 +128,10 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 				color: #343a40;
 			}
 
-			.markdown .small-list--33  {
-				width: 33%;
-				max-width: 33%;
+			.markdown .small-list--33,
+			.markdown .small-list--50  {
+				width: 50%;
+				max-width: 50%;
 			}
 		}
 

@@ -53,12 +53,6 @@ class Sidebar extends React.Component {
             padding: 1.5rem;
           }
 
-          .sidebar__content {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-          }
-
           .name {
             font-size: 1rem;
             font-weight: 400;
@@ -85,11 +79,6 @@ class Sidebar extends React.Component {
 
           .info {
             margin-top: 1.5rem;
-            margin-right: 1.5rem;
-          }
-
-          .links li {
-            text-align: right;
           }
 
           .links a {
@@ -154,12 +143,9 @@ class Sidebar extends React.Component {
             }
 
             .links {
-              margin-bottom: 1.5rem;
+              margin: 1.5rem 0;
             }
 
-            .links li {
-              text-align: left;
-            }
 
             .perks {
               display: block;
@@ -179,7 +165,7 @@ class Sidebar extends React.Component {
               position: relative;
               width: 33.333333%;
               height: 100vh;
-              padding-bottom: 24px;
+              padding: 24px;
             }
 
             .sidebar__content {

@@ -15,20 +15,23 @@
 		"title": "TED Redesign",
 		"status": false,
 		"time": 2016,
-		"categories": []
+		"categories": [],
+		"description": ""
 	},
 	{
 		"id": "four-questions",
 		"title": "Four Questions",
 		"status": false,
 		"time": 2016,
-		"categories": []
+		"categories": [],
+		"description": ""
 	},
 	{
-		"id": "Samantha",
+		"id": "samantha",
 		"title": "Samantha",
 		"status": false,
 		"time": 2015,
-		"categories": []
+		"categories": [],
+		"description": ""
 	}
 ]
