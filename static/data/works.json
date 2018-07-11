@@ -1,0 +1,34 @@
+[
+	{
+		"id": "marko",
+		"title": "Marko",
+		"status": true,
+		"time": 2016,
+		"categories": [
+			"UI/UX Design",
+			"Mobile Design"
+		],
+		"description": "Find your travel buddy — A mobile app for solo travellers to meet others"
+	},
+	{
+		"id": "ted-mobile",
+		"title": "TED Redesign",
+		"status": false,
+		"time": 2016,
+		"categories": []
+	},
+	{
+		"id": "four-questions",
+		"title": "Four Questions",
+		"status": false,
+		"time": 2016,
+		"categories": []
+	},
+	{
+		"id": "Samantha",
+		"title": "Samantha",
+		"status": false,
+		"time": 2015,
+		"categories": []
+	}
+]

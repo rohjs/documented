@@ -1,0 +1,28 @@
+{
+  "Languages": [
+    "Korean",
+    "English"
+  ],
+  "Skills": [
+    "HTML, CSS, Javascript",
+    "ES6+, TypeScript",
+    "React, Redux, Redux Saga",
+    "Node, Express",
+    "Ruby, Rails"
+  ],
+  "Work experience": [
+    "UI/UX designer at True North / 2016",
+    "TA at Fastcampus Frontend Development School program / 2017",
+    "UI/UX designer & Frontend developer at Likelion / 2017",
+    "Frontend Dev. lecturer at Likelion / 2017",
+    "Designer & UI Developer at Insomenia / 2017-2018",
+    "UX Developer at Revisolution PBC / 2017",
+    "Sticker distributor at Dingco Sticker / 2018"
+  ],
+  "Other": [
+    "Volunteer at World Friends IT Korea / San Lorenzo, Paraguay / 2014",
+    "Promotion Director at TEDxSogangU / 2014",
+    "Director at TEDxSogangU / 2015",
+    "1st Prize / Imagination Content at Sogang Univ. / 2015"
+  ]
+}
