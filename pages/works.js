@@ -34,7 +34,7 @@ class Works extends React.Component {
           <title>works / roh woohyeon®</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
         </Head>
-        <section className='section'>
+        <section className='section--wide'>
           <h1 className='sr-only'>Works</h1>
           <ul className='works'>
             { this.renderWorkItems() }

@@ -16,12 +16,13 @@ const AppLayout = (props) => {
           box-sizing: border-box;
           color: #292b2c;
           font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+          line-height: 1.5;
           letter-spacing: -.01em;
         }
 
         html {
           font-size: 15px;
-          line-height: 1.55;
+          line-height: 1.5;
         }
 
         p {
@@ -33,16 +34,12 @@ const AppLayout = (props) => {
           color: inherit;
         }
 
-        a:not(.link, .inactive, .active):hover {
-          border-bottom: 2px solid;
-        }
-
         button {
           padding: 0;
           border: none;
           border-radius: 0;
           font-size: 1rem;
-          line-height: 1.45;
+          line-height: inherit;
           background: transparent;
           box-shadow: none;
           cursor: pointer;
@@ -51,6 +48,7 @@ const AppLayout = (props) => {
         button:hover,
         button:focus,
         button:active {
+          border: none;
           outline: none;
           box-shadow: none;
         }
@@ -71,54 +69,60 @@ const AppLayout = (props) => {
           overflow: hidden;
         }
 
+        .muted {
+          opacity: .3;
+        }
+
+        em.wip {
+          margin-left: .25rem;
+          font-size: .875em;
+        }
+
         #app {
           width: 100%;
           max-width: 1920px;
           margin: 0 auto;
         }
 
-        .list-item {
-          margin-bottom: 4px;
-        }
-
         .list-item h1 {
           font-size: 1rem;
-          line-height: 1.45;
+          line-height: inherit;
         }
 
         .list-item ul {
           display: none;
-          margin-bottom: 24px;
+          margin-bottom: 1.5rem;
         }
 
         .list-item ul.active {
           display: block;
         }
 
-        .list-item li {
-          margin-bottom: 4px;
-        }
-
         .list-item h1 button {
-          border-bottom: 2px solid;
-          margin-bottom: 4px;
+          text-decoration: underline;
         }
 
         .btn--back {
           position: relative;
           bottom: 1.5rem;
           display: none;
-          line-height: 32px;
+          line-height: 2rem;
         }
 
-        .section {
+        .section,
+        .section--wide {
           padding-bottom: 3rem;
+        }
+
+        @media screen and (min-width: 568px) {
+          html {
+            font-size: 16px;
+          }
         }
 
         @media screen and (min-width: 768px) {
           html {
             font-size: 18px;
-            line-height: 1.5;
           }
 
           #app {
@@ -128,15 +132,21 @@ const AppLayout = (props) => {
             overflow: hidden;
           }
 
-          .section {
-            width: 85%;
+          .section,
+          .section--wide {
+            width: 100%;
             padding-bottom: 6rem;
             overflow: auto;
+          }
+
+          .section {
+            width: 85%;
           }
 
           .btn--back {
             display: inline-block;
           }
+
         }
 
         ::-webkit-scrollbar-thumb,
@@ -172,19 +182,26 @@ const AppLayout = (props) => {
             line-height: 1.5;
           }
 
-          .list-item h1 {
-            font-size: 1rem;
-            line-height: 1.333333333;
+          #main {
+            padding-left: 4rem;
           }
 
           .section {
-            width: 80%;
+            width: 85%;
           }
         }
 
         @media screen and (min-width: 1200px) {
+          #main {
+            padding-left: 4rem;
+          }
+
           .section {
-            width: 72%;
+            width: 70%;
+          }
+
+          .section--wide {
+            width: 95%%;
           }
 		    }
     `}</style>

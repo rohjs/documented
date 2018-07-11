@@ -57,42 +57,22 @@ class SkillItem extends React.Component {
       </ul>
 
       <style jsx>{`
-        .list-item {
-          margin-bottom: 2px;
-        }
-
-        .list-item h1 {
-          font-size: 1rem;
-          line-height: 1.45;
-        }
-
         .list-item ul {
           display: none;
-          margin-bottom: 24px;
+          margin-bottom: 1.5rem;
         }
 
         .list-item ul.active {
           display: block;
         }
 
-        .list-item li {
-          margin-bottom: 4px;
-        }
-
         .list-item h1 button {
-          border-bottom: 2px solid;
-          margin-bottom: 4px;
+          margin-bottom: .25rem;
+          text-decoration: underline;
         }
 
         .list-item .inactive {
           display: none;
-        }
-
-        @media screen and (min-width: 992px) {
-          .list-item h1 {
-            font-size: 1rem;
-            line-height: 1.5;
-          }
         }
       `}</style>
     </li>

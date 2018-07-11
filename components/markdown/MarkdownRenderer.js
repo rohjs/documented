@@ -57,7 +57,7 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 			font-size: 35px;
 			font-weight: 400;
 			line-height: 1.5;
-			color: #212529;
+			color: #292b2c;
 		}
 
 		.markdown h2 {

@@ -27,30 +27,29 @@ class Sidebar extends React.Component {
             <li>
               <Link href='https://github.com/rohjs'>
                 <a>
-                  Github
+                  Github →
                 </a>
               </Link>
             </li>
             <li>
               <Link href='https://github.com/rohjs'>
                 <a>
-                  LinkedIn
+                  LinkedIn →
                 </a>
               </Link>
             </li>
-            <li>
-              <p className='year'>
-                2016/2018 <sup>®</sup>
-              </p>
-            </li>
           </ul>
+          <p className='perks'>
+            Form follows function.
+          </p>
+          <p className='year'>
+            2016/2018 <sup>®</sup>
+          </p>
         </div>
         <style jsx>{`
           .sidebar {
             position: relative;
-            padding-top: 2rem;
-            padding-left: 15px;
-            padding-right: 15px;
+            padding: 2rem 1.5rem;
           }
 
           .sidebar__content {
@@ -60,7 +59,7 @@ class Sidebar extends React.Component {
           }
 
           .name {
-            font-size: 15px;
+            font-size: 1rem;
             font-weight: 400;
             line-height: 1.5;
           }
@@ -71,11 +70,10 @@ class Sidebar extends React.Component {
 
           .name a:hover {
             text-decoration: none;
-            border-bottom: none;
           }
 
           .name sup {
-            font-size: 10px;
+            font-size: .5rem;
             font-weight: 700;
           }
 
@@ -83,39 +81,39 @@ class Sidebar extends React.Component {
             margin-top: 1.5rem;
           }
 
-          .links li {
-            margin-bottom: 2px;
-          }
           .links a {
-            border-bottom: 2px solid;
+            text-decoration: underline;
           }
+
           .year sup {
             position: relative;
             top: 3px;
-            right: 1px;
+            right: 2px;
             font-size: 1rem;
-            font-weight: 700;
+            font-weight: 400;
           }
+
           .year {
             position: absolute;
             top: 20px;
             right: 15px;
           }
 
-          .language {
-            margin-top: 3rem;
+          .perks {
+            display: none;
           }
 
           @media screen and (min-width: 400px) {
             .sidebar {
-              padding-left: 20px;
-              padding-right: 20px;
+              padding-left: 1.5rem;
+              padding-right: 1.5rem;
             }
           }
 
           @media screen and (min-width: 768px) {
             .sidebar {
               width: 33.333333333%;
+              padding-top: 50px;
               padding-left: 50px;
               padding-right: 0;
               padding-bottom: 24px;
@@ -123,6 +121,7 @@ class Sidebar extends React.Component {
 
             .sidebar__content {
               display: block;
+              margin-top: 4rem;
             }
 
             .text {
@@ -139,12 +138,16 @@ class Sidebar extends React.Component {
               height: 32px;
             }
 
-            .links li {
-              margin-bottom: 8px;
+            .links {
+              margin-bottom: 1.5rem;
             }
 
-            .sidebar__content {
-              margin-top: 4rem;
+            .links li {
+              margin-bottom: 2px;
+            }
+
+            .perks {
+              display: block;
             }
 
             .info {
@@ -169,7 +172,7 @@ class Sidebar extends React.Component {
             }
 
             .sidebar__content {
-              margin-top: 136px;
+              margin-top: 6rem;
             }
           }
         `}</style>
