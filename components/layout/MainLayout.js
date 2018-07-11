@@ -38,7 +38,7 @@ class MainLayout extends React.Component {
           display: flex;
           flex-direction: column;
           width: 100%;
-          padding: 2rem 1.5rem;
+          padding: 0 1.5rem;
         }
 
         .gnb {
@@ -51,16 +51,23 @@ class MainLayout extends React.Component {
         }
 
         .gnb li {
-          margin-right: 1.5rem;
+          margin-right: .75rem;
         }
 
         .active {
           text-decoration: underline;
         }
 
+        @media screen and (min-width: 540px) {
+          #main {
+            padding-left: 2rem;
+            padding-right: 2rem;
+          }
+        }
+
         @media screen and (min-width: 768px) {
           #main {
-            width: 66.6666666666%;
+            width: 70%;
             height: 100vh;
             padding: 50px;
             padding-bottom: 1.5rem;
@@ -80,6 +87,9 @@ class MainLayout extends React.Component {
         }
 
         @media screen and (min-width: 992px) {
+          #main {
+            width: 66.666666%;
+          }
           .gnb {
             margin-bottom: 6rem;
           }

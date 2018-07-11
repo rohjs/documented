@@ -31,6 +31,11 @@ class About extends React.Component {
               })
           }
         </ul>
+        <style jsx>{`
+          p {
+            margin-bottom: 1.5rem;
+          }
+        `}</style>
       </section>
     </AppLayout>
   }

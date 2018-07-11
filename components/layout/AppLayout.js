@@ -94,6 +94,10 @@ const AppLayout = (props) => {
           margin-bottom: 1.5rem;
         }
 
+        .list-item {
+          margin-bottom: .25em;
+        }
+
         .list-item ul.active {
           display: block;
         }
