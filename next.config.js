@@ -5,7 +5,7 @@ module.exports = {
   exportPathMap: function () {
     const basePathMap = {
       '/': { page: '/' },
-      '/404': { page: '/404' },
+      '/404': { page: '/not-found' },
       '/about': { page: '/about' },
       '/works': { page: '/works' },
     }
