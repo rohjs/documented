@@ -81,6 +81,10 @@ class Sidebar extends React.Component {
             margin-top: 1.5rem;
           }
 
+          .links {
+            margin-top: 1.5rem;
+          }
+
           .links a {
             text-decoration: underline;
           }
@@ -121,7 +125,7 @@ class Sidebar extends React.Component {
               padding-top: 50px;
               padding-left: 50px;
               padding-right: 0;
-              padding-bottom: 24px;
+              padding-bottom: 50px;
             }
 
             .sidebar__content {
@@ -165,7 +169,8 @@ class Sidebar extends React.Component {
               position: relative;
               width: 33.333333%;
               height: 100vh;
-              padding: 24px;
+              padding: 50px;
+              padding-bottom: 1.5rem;
             }
 
             .sidebar__content {

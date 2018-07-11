@@ -59,7 +59,7 @@ class SkillItem extends React.Component {
       <style jsx>{`
         .list-item ul {
           display: none;
-          margin-bottom: 1rem;
+          margin-bottom: 1.2rem;
         }
 
         .list-item ul.active {
@@ -68,10 +68,6 @@ class SkillItem extends React.Component {
 
         .list-item h1 button {
           text-decoration: underline;
-        }
-
-        .list-item .inactive {
-          display: none;
         }
       `}</style>
     </li>

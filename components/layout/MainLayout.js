@@ -15,6 +15,13 @@ class MainLayout extends React.Component {
         </h1>
         <ul>
           <li>
+            <Link href='/'>
+              <a className={pathname === '/' ? 'active' : ''}>
+                Index
+              </a>
+            </Link>
+          </li>
+          <li>
             <Link href='/about'>
               <a className={pathname === '/about' ? 'active' : ''}>
                 About

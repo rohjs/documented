@@ -91,11 +91,7 @@ const AppLayout = (props) => {
 
         .list-item ul {
           display: none;
-          margin-bottom: 1.5rem;
-        }
-
-        .list-item {
-          margin-bottom: .25em;
+          margin-bottom: 1.2rem;
         }
 
         .list-item ul.active {
@@ -179,11 +175,6 @@ const AppLayout = (props) => {
         @media screen and (min-width: 992px) {
           html {
             font-size: 20px;
-          }
-
-          button {
-            font-size: 1rem;
-            line-height: 1.5;
           }
 
           #main {

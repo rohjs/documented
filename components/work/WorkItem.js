@@ -112,7 +112,7 @@ class WorkItem extends React.Component {
 
 				.work-brief.active {
 					display: block;
-					margin-bottom: 3rem;
+					margin-bottom: 2rem;
 				}
 
 				.work-brief__link {
@@ -131,7 +131,7 @@ class WorkItem extends React.Component {
 
 				.work-brief dl {
 					flex-shrink: 0;
-					margin-right: 1.5rem;
+					margin-right: 2rem;
 					margin-bottom: .5rem;
 					color: #343a40;
 				}
@@ -161,7 +161,7 @@ class WorkItem extends React.Component {
 					}
 
 					.work-brief.active {
-						margin-bottom: 2rem;
+						margin-bottom: 1.2rem;
 					}
 
 					.work-brief dl {
