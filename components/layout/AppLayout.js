@@ -104,6 +104,13 @@ const AppLayout = (props) => {
           margin-bottom: 4px;
         }
 
+        .btn--back {
+          position: relative;
+          bottom: 1.5rem;
+          display: none;
+          line-height: 32px;
+        }
+
         @media screen and (min-width: 720px) {
           #app {
             display: flex;
@@ -117,6 +124,10 @@ const AppLayout = (props) => {
             padding-right: 50px;
             padding-bottom: 32px;
             overflow: auto;
+          }
+
+          .btn--back {
+            display: inline-block;
           }
         }
 

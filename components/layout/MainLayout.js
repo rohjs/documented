@@ -24,7 +24,7 @@ class MainLayout extends React.Component {
             </li>
             <li>
               <Link href='/works'>
-                <a className={pathname === '/work' ? 'active' : ''}>
+                <a className={pathname === '/works' || pathname === '/work' ? 'active' : ''}>
                   Works
                 </a>
               </Link>
