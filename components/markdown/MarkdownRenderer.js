@@ -125,7 +125,9 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 		@media screen and (min-width: 768px) {
 			.markdown {
 				width: 80%;
+				margin-left: 10%;
 			}
+
 			.markdown .small-list--33  {
 				width: 33%;
 				max-width: 33%;
