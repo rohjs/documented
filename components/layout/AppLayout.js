@@ -21,7 +21,7 @@ const AppLayout = (props) => {
 
         html {
           font-size: 15px;
-          line-height: 1.45;
+          line-height: 1.55;
         }
 
         p {
@@ -41,7 +41,7 @@ const AppLayout = (props) => {
           padding: 0;
           border: none;
           border-radius: 0;
-          font-size: 15px;
+          font-size: 1rem;
           line-height: 1.45;
           background: transparent;
           box-shadow: none;
@@ -82,7 +82,7 @@ const AppLayout = (props) => {
         }
 
         .list-item h1 {
-          font-size: 15px;
+          font-size: 1rem;
           line-height: 1.45;
         }
 
@@ -111,7 +111,16 @@ const AppLayout = (props) => {
           line-height: 32px;
         }
 
-        @media screen and (min-width: 720px) {
+        .section {
+          padding-bottom: 3rem;
+        }
+
+        @media screen and (min-width: 768px) {
+          html {
+            font-size: 18px;
+            line-height: 1.5;
+          }
+
           #app {
             display: flex;
             height: 100vh;
@@ -120,9 +129,8 @@ const AppLayout = (props) => {
           }
 
           .section {
-            padding-top: 17px;
-            padding-right: 50px;
-            padding-bottom: 32px;
+            width: 85%;
+            padding-bottom: 6rem;
             overflow: auto;
           }
 
@@ -154,26 +162,31 @@ const AppLayout = (props) => {
           height: 100%;
         }
 
-        @media screen and (min-width: 960px) {
+        @media screen and (min-width: 992px) {
           html {
             font-size: 20px;
-            line-height: 1.333333333;
           }
 
           button {
-            font-size: 20px;
+            font-size: 1rem;
+            line-height: 1.5;
+          }
+
+          .list-item h1 {
+            font-size: 1rem;
             line-height: 1.333333333;
           }
 
           .section {
-            padding-top: 104px;
-          }
-
-          .list-item h1 {
-            font-size: 20px;
-            line-height: 1.333333333;
+            width: 80%;
           }
         }
+
+        @media screen and (min-width: 1200px) {
+          .section {
+            width: 72%;
+          }
+		    }
     `}</style>
     </div>
   )

@@ -48,8 +48,7 @@ class Sidebar extends React.Component {
         <style jsx>{`
           .sidebar {
             position: relative;
-            padding-top: 16px;
-            padding-bottom: 24px;
+            padding-top: 2rem;
             padding-left: 15px;
             padding-right: 15px;
           }
@@ -61,10 +60,9 @@ class Sidebar extends React.Component {
           }
 
           .name {
-            padding-top: 16px;
             font-size: 15px;
             font-weight: 400;
-            line-height: 1.45;
+            line-height: 1.5;
           }
 
           .text {
@@ -80,9 +78,11 @@ class Sidebar extends React.Component {
             font-size: 10px;
             font-weight: 700;
           }
+
           .info {
-            margin-top: 48px;
+            margin-top: 1.5rem;
           }
+
           .links li {
             margin-bottom: 2px;
           }
@@ -93,7 +93,7 @@ class Sidebar extends React.Component {
             position: relative;
             top: 3px;
             right: 1px;
-            font-size: 20px;
+            font-size: 1rem;
             font-weight: 700;
           }
           .year {
@@ -113,11 +113,12 @@ class Sidebar extends React.Component {
             }
           }
 
-          @media screen and (min-width: 720px) {
+          @media screen and (min-width: 768px) {
             .sidebar {
               width: 33.333333333%;
               padding-left: 50px;
               padding-right: 0;
+              padding-bottom: 24px;
             }
 
             .sidebar__content {
@@ -135,28 +136,41 @@ class Sidebar extends React.Component {
               left: 50px;
               right: initial;
               margin-bottom: 0;
+              height: 32px;
             }
 
             .links li {
               margin-bottom: 8px;
             }
+
+            .sidebar__content {
+              margin-top: 4rem;
+            }
+
+            .info {
+              margin-top: 0;
+            }
+
+            .name {
+              font-size: 1rem;
+              line-height: 1.5;
+            }
           }
 
-          @media screen and (min-width: 960px) {
+          @media screen and (min-width: 992px) {
             .sidebar {
               position: relative;
               height: 100vh;
-              padding-top: 16px;
               padding-bottom: 24px;
             }
+
             .name {
-              font-size: 20px;
-              line-height: 1.333333333;
-            }
-            .info {
-              margin-top: 136px;
+              font-size: 1rem;
             }
 
+            .sidebar__content {
+              margin-top: 136px;
+            }
           }
         `}</style>
       </header>

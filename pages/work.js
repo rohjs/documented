@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 import AppLayout from '../components/layout/AppLayout'
 import MarkdownRenderer from '../components/markdown/MarkdownRenderer'
 import fetch from 'isomorphic-unfetch'
@@ -47,7 +48,6 @@ class Work extends React.Component {
           <title>works / roh woohyeon®</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
         </Head>
-
         <section className='section'>
           {this.renderWork()}
         </section>

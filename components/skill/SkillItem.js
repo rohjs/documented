@@ -62,7 +62,7 @@ class SkillItem extends React.Component {
         }
 
         .list-item h1 {
-          font-size: 15px;
+          font-size: 1rem;
           line-height: 1.45;
         }
 
@@ -88,10 +88,10 @@ class SkillItem extends React.Component {
           display: none;
         }
 
-        @media screen and (min-width: 960px) {
+        @media screen and (min-width: 992px) {
           .list-item h1 {
-            font-size: 20px;
-            line-height: 1.333333333;
+            font-size: 1rem;
+            line-height: 1.5;
           }
         }
       `}</style>

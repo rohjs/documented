@@ -158,12 +158,17 @@ class WorkItem extends React.Component {
 					font-style: italic;
 				}
 
-				@media screen and (min-width: 720px) {
+				@media screen and (min-width: 768px) {
 					.work-brief.active,
 					.active .work-brief {
 						display: flex;
 						align-items: flex-start;
 						margin-bottom: 1.5rem;
+					}
+
+					.work-brief dl,
+					.work-brief--empty dl {
+						margin-right: 2rem;
 					}
 
 					.work-brief__categories {
@@ -175,6 +180,7 @@ class WorkItem extends React.Component {
 						margin-bottom: 0;
 					}
 				}
+
 			`}</style>
 		</li>
 	}

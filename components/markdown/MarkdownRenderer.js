@@ -4,20 +4,16 @@ import { renderMarkdown } from '../../lib/renderMarkdown'
 const MarkdownRenderer = ({source}) => <article className='markdown'>
 	<div dangerouslySetInnerHTML={{__html: renderMarkdown(source)}} />
 	<style global jsx>{`
-		.markdown {
-			padding-bottom: 6rem;
-		}
-
 		.markdown .header-img {
 			margin-bottom: 3rem;
 		}
 
 		.markdown .mr-2 {
-			margin-right: .375em;
+			margin-right: .368em;
 		}
 
 		.markdown .img-container {
-			width: 100%
+			width: 100%;
 			margin-bottom: 2.5rem;
 		}
 
@@ -74,7 +70,7 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 
 		.markdown h4 {
 			margin-bottom: 20px;
-			font-size: 15px;
+			font-size: .875rem;
 			font-weight: 500;
 			text-transform: uppercase;
 			line-height: 1.5;
@@ -123,9 +119,13 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 
 
 		@media screen and (min-width: 768px) {
-			.markdown {
-				width: 80%;
-				margin-left: 10%;
+			.markdown p,
+			.markdown ul,
+			.markdown ol,
+			.markdown dl {
+				font-size: .875rem;
+				line-height: 1.8;
+				color: #343a40;
 			}
 
 			.markdown .small-list--33  {
@@ -135,10 +135,6 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 		}
 
 		@media screen and (min-width: 992px) {
-			.markdown {
-				width: 68%;
-			}
-
 			.markdown .small-list--33 {
 				width: 33%;
 			}

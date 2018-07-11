@@ -8,79 +8,91 @@ class MainLayout extends React.Component {
       pathname
     } = this.props.router
 
-    return (
-      <main id='main'>
-        <nav className='gnb'>
-          <h1 className='sr-only'>
-            메뉴
-          </h1>
-          <ul>
-            <li>
-              <Link href='/about'>
-                <a className={pathname === '/about' ? 'active' : ''}>
-                  About
-                </a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/works'>
-                <a className={pathname === '/works' || pathname === '/work' ? 'active' : ''}>
-                  Works
-                </a>
-              </Link>
-            </li>
-          </ul>
-        </nav>
+    return <main id='main'>
+      <nav className='gnb'>
+        <h1 className='sr-only'>
+          메뉴
+        </h1>
+        <ul>
+          <li>
+            <Link href='/about'>
+              <a className={pathname === '/about' ? 'active' : ''}>
+                About
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link href='/works'>
+              <a className={pathname === '/works' || pathname === '/work' ? 'active' : ''}>
+                Works
+              </a>
+            </Link>
+          </li>
+        </ul>
+      </nav>
 
-        { this.props.children }
+      { this.props.children }
 
-        <style jsx>{`
+      <style jsx>{`
+        #main {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          padding: 2rem 1rem;
+        }
+
+        .gnb {
+          padding-bottom: 0;
+          margin-bottom: 3rem;
+        }
+
+        .gnb ul {
+          display: flex;
+        }
+
+        .gnb li {
+          margin-right: 1.5rem;
+        }
+
+        .active {
+          border-bottom: 2px solid;
+        }
+
+        @media screen and (min-width: 400px) {
           #main {
-            display: flex;
-            flex-direction: column;
-            width: 100%;
-            padding-left: 16px;
-            padding-right: 16px;
-            padding-bottom: 48px;
+            padding-left: 20px;
+            padding-right: 20px;
           }
+        }
+
+        @media screen and (min-width: 768px) {
+          #main {
+            width: 66.6666666666%;
+            height: 100vh;
+            padding: 50px;
+            padding-bottom: 24px;
+          }
+
           .gnb {
-            padding-top: 16px;
+            margin-bottom: 4rem;
           }
+
           .gnb ul {
-            display: flex;
-            padding-top: 16px;
-            padding-bottom: 32px;
+            margin-bottom: 0;
           }
+
           .gnb li {
-            margin-right: 1.5rem;
+            margin-right: 2rem;
           }
+        }
 
-          .active {
-            border-bottom: 2px solid;
+        @media screen and (min-width: 992px) {
+          .gnb {
+            margin-bottom: 136px;
           }
-
-          @media screen and (min-width: 400px) {
-            #main {
-              padding-left: 20px;
-              padding-right: 20px;
-            }
-          }
-
-          @media screen and (min-width: 720px) {
-            #main {
-              width: 66.6666666666%;
-              height: 100vh;
-              padding-left: 0;
-              padding-right: 0;
-              padding-bottom: 0;
-            }
-            .gnb {
-              margin-bottom: 0;
-            }
-          }
-        `}</style>
-      </main>
-    )
+        }
+      `}</style>
+    </main>
   }
 }
 
