@@ -65,7 +65,7 @@ class MainLayout extends React.Component {
           text-decoration: underline;
         }
 
-        @media screen and (min-width: 540px) {
+        @media screen and (min-width: 568px) {
           #main {
             padding-left: 1.5rem;
             padding-right: 1.5rem;
@@ -74,7 +74,7 @@ class MainLayout extends React.Component {
 
         @media screen and (min-width: 768px) {
           #main {
-            width: 70%;
+            width: 60%;
             height: 100vh;
             padding: 50px;
             padding-bottom: 1rem;
@@ -95,7 +95,7 @@ class MainLayout extends React.Component {
 
         @media screen and (min-width: 992px) {
           #main {
-            width: 66.666666%;
+            width: 70%;
           }
           .gnb {
             margin-bottom: 5rem;

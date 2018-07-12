@@ -35,15 +35,10 @@ const Index = () => <div id='wrap'>
       margin-bottom: 1rem;
     }
 
-    .images {
-      margin-top: 3rem;
-    }
-
     @media screen and (min-width: 768px) {
       .images {
         overflow-x: hidden;
         width: 100%;
-        margin-top: 0;
       }
 
     }

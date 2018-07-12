@@ -114,41 +114,6 @@ const AppLayout = (props) => {
           padding-bottom: 3rem;
         }
 
-        @media screen and (min-width: 568px) {
-          html {
-            font-size: 16px;
-          }
-        }
-
-        @media screen and (min-width: 768px) {
-          html {
-            font-size: 18px;
-          }
-
-          #app {
-            display: flex;
-            height: 100vh;
-            align-items: stretch;
-            overflow: hidden;
-          }
-
-          .section,
-          .section--wide {
-            width: 100%;
-            padding-bottom: 6rem;
-            overflow: auto;
-          }
-
-          .section {
-            width: 85%;
-          }
-
-          .btn--back {
-            display: inline-block;
-          }
-
-        }
-
         ::-webkit-scrollbar-thumb,
         ::-webkit-scrollbar-track,
         ::-webkit-scrollbar {
@@ -172,6 +137,46 @@ const AppLayout = (props) => {
           height: 100%;
         }
 
+        @media screen and (min-width: 568px) {
+          html {
+            font-size: 16px;
+          }
+
+          #app {
+            width: 540px;
+            margin: 0 auto;
+          }
+        }
+
+        @media screen and (min-width: 768px) {
+          html {
+            font-size: 18px;
+          }
+
+          #app {
+            display: flex;
+            width: 100%;
+            align-items: stretch;
+            overflow: hidden;
+          }
+
+          .section,
+          .section--wide {
+            width: 100%;
+            padding-bottom: 6rem;
+            overflow: auto;
+          }
+
+          .section {
+            width: 85%;
+          }
+
+          .btn--back {
+            display: inline-block;
+          }
+
+        }
+
         @media screen and (min-width: 992px) {
           html {
             font-size: 20px;
@@ -192,7 +197,7 @@ const AppLayout = (props) => {
           }
 
           .section {
-            width: 70%;
+            width: 80%;
           }
 
           .section--wide {
