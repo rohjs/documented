@@ -81,6 +81,8 @@ class MainLayout extends React.Component {
           }
 
           .gnb {
+            width: 90%;
+            margin-left: 5%;
             margin-bottom: 4rem;
           }
 

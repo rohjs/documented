@@ -61,10 +61,6 @@ class Sidebar extends React.Component {
             line-height: 1.5;
           }
 
-          .name a {
-            letter-spacing: -.01em;
-          }
-
           .text {
             margin-bottom: 0;
           }
@@ -77,6 +73,7 @@ class Sidebar extends React.Component {
             margin-left: -2px;
             font-size: .5rem;
             font-weight: 700;
+            letter-spacing: -.01em;
           }
 
           .info {

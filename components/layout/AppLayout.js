@@ -165,6 +165,7 @@ const AppLayout = (props) => {
             width: 100%;
             padding-bottom: 6rem;
             overflow: auto;
+            margin-left: 5%;
           }
 
           .section {

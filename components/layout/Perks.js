@@ -5,8 +5,8 @@ class Perks extends React.Component {
 		super(props)
 
 		this.perks = [
-			'Hit me up with email',
-			'Or via facebook messagener'
+			'👩‍💻',
+			'I build digital products with ❤️'
 		]
 
 		this.state = {
