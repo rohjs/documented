@@ -33,7 +33,7 @@ class About extends React.Component {
         </ul>
         <style jsx>{`
           p {
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
           }
         `}</style>
       </section>

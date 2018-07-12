@@ -112,7 +112,7 @@ class WorkItem extends React.Component {
 
 				.work-brief.active {
 					display: block;
-					margin-bottom: 2rem;
+					margin-bottom: 1.5rem;
 				}
 
 				.work-brief__link {
@@ -131,7 +131,7 @@ class WorkItem extends React.Component {
 
 				.work-brief dl {
 					flex-shrink: 0;
-					margin-right: 2rem;
+					margin-right: 1.5rem;
 					margin-bottom: .5rem;
 					color: #343a40;
 				}
@@ -141,11 +141,12 @@ class WorkItem extends React.Component {
 				}
 
 				.work-brief__categories dd {
-					margin-right: .75rem;
+					margin-right: .5rem;
 				}
 
 				p.work-brief__description {
 					color: #343a40;
+					word-break: break-all;
 				}
 
 
@@ -157,7 +158,7 @@ class WorkItem extends React.Component {
 					}
 
 					.work-brief {
-						margin-right: 2rem;
+						margin-right: 1.5rem;
 					}
 
 					.work-brief.active {
@@ -190,7 +191,7 @@ class WorkItem extends React.Component {
 					}
 
 					.work-brief__categories dd {
-						margin-right: .75rem;
+						margin-right: .5rem;
 					}
 
 					.work-brief__description {

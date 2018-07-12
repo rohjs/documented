@@ -104,9 +104,9 @@ const AppLayout = (props) => {
 
         .btn--back {
           position: relative;
-          bottom: 1.5rem;
+          bottom: 1rem;
           display: none;
-          line-height: 2rem;
+          line-height: 1.5rem;
         }
 
         .section,

@@ -67,8 +67,8 @@ class MainLayout extends React.Component {
 
         @media screen and (min-width: 540px) {
           #main {
-            padding-left: 2rem;
-            padding-right: 2rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
           }
         }
 
@@ -77,7 +77,7 @@ class MainLayout extends React.Component {
             width: 70%;
             height: 100vh;
             padding: 50px;
-            padding-bottom: 1.5rem;
+            padding-bottom: 1rem;
           }
 
           .gnb {

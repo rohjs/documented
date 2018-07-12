@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Perks from './Perks'
 
 class Sidebar extends React.Component {
   render () {
@@ -32,16 +33,14 @@ class Sidebar extends React.Component {
               </Link>
             </li>
             <li>
-              <Link href='https://github.com/rohjs'>
+              <Link href='https://www.facebook.com/woohyeon.roh'>
                 <a>
-                  LinkedIn →
+                  Facebook →
                 </a>
               </Link>
             </li>
           </ul>
-          <p className='perks'>
-            Form follows function.
-          </p>
+          <Perks />
           <p className='year'>
             2016/2018 <sup>®</sup>
           </p>
@@ -78,11 +77,11 @@ class Sidebar extends React.Component {
           }
 
           .info {
-            margin-top: 1.5rem;
+            margin-top: 1rem;
           }
 
           .links {
-            margin-top: 1.5rem;
+            margin-top: 1rem;
           }
 
           .links a {
@@ -100,22 +99,23 @@ class Sidebar extends React.Component {
           .year {
             position: absolute;
             top: 17px;
-            right: 1.5rem;
+            right: 1rem;
           }
 
           .perks {
             display: none;
+            margin-top: 3rem;
           }
 
           @media screen and (min-width: 540px) {
             .sidebar {
-              padding-left: 2rem;
-              padding-right: 2rem;
+              padding-left: 1.5rem;
+              padding-right: 1.5rem;
             }
 
             .year {
               top: 19px;
-              right: 2rem;
+              right: 1.5rem;
             }
           }
 
@@ -134,7 +134,7 @@ class Sidebar extends React.Component {
             }
 
             .text {
-              margin-bottom: 1.5rem;
+              margin-bottom: 1rem;
             }
 
             .year {
@@ -147,9 +147,8 @@ class Sidebar extends React.Component {
             }
 
             .links {
-              margin: 1.5rem 0;
+              margin: 1rem 0;
             }
-
 
             .perks {
               display: block;
@@ -162,6 +161,10 @@ class Sidebar extends React.Component {
             .name {
               line-height: 1.5;
             }
+
+            .perks {
+              margin-top: 3rem;
+            }
           }
 
           @media screen and (min-width: 992px) {
@@ -170,11 +173,14 @@ class Sidebar extends React.Component {
               width: 33.333333%;
               height: 100vh;
               padding: 50px;
-              padding-bottom: 1.5rem;
+              padding-bottom: 1rem;
             }
 
             .sidebar__content {
               margin-top: 6rem;
+            }
+            .perks {
+              margin-top: 3rem;
             }
           }
         `}</style>

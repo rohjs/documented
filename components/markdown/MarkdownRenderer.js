@@ -23,7 +23,7 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 		}
 
 		.mardown p + img {
-			margin-top: 1.5rem;
+			margin-top: 1rem;
 		}
 
 		.markdown p,
@@ -44,7 +44,7 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 
 		.markdown p + h4,
 		.markdown .img-container + h4 {
-			margin-top: 2rem;
+			margin-top: 1.5rem;
 		}
 
 		.markdown em {
@@ -61,7 +61,7 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 		}
 
 		.markdown h2 {
-			margin-bottom: 1.5rem;
+			margin-bottom: 1rem;
 			font-size: 22.5px;
 			font-weight: 400;
 			line-height: 1.5;
@@ -85,7 +85,7 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 		}
 
 		.markdown .figures {
-			margin-top: 2rem;
+			margin-top: 1.5rem;
 		}
 
 		.markdown .small-list__container {
@@ -100,7 +100,7 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 			width: 100%;
 			max-width: 100%;
 			padding-right: 1rem;
-			margin-bottom: 1.5rem;
+			margin-bottom: 1rem;
 		}
 
 		.markdown dt,
