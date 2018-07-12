@@ -54,7 +54,7 @@ class Sidebar extends React.Component {
 
           .name {
             font-size: 1rem;
-            font-weight: 400;
+            font-weight: 500;
             line-height: 1.5;
           }
 
@@ -93,7 +93,7 @@ class Sidebar extends React.Component {
             top: 3px;
             right: 2px;
             font-size: 1rem;
-            font-weight: 400;
+            font-weight: 500;
           }
 
           .year {
@@ -177,7 +177,7 @@ class Sidebar extends React.Component {
             }
 
             .sidebar__content {
-              margin-top: 6rem;
+              margin-top: 5rem;
             }
             .perks {
               margin-top: 3rem;

@@ -35,6 +35,17 @@ class Perks extends React.Component {
 
 		return <p className='perks'>
 			{ this.perks[perk] }
+			<style jsx>{`
+				.perks {
+					margin-top: 1.5rem;
+				}
+
+				@media screen and (min-width: 768px) {
+					.perks {
+						margin-top: 2.5rem;
+					}
+				}
+			`}</style>
 		</p>
 	}
 }
