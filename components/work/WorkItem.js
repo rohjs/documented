@@ -10,16 +10,6 @@ class WorkItem extends React.Component {
     }
   }
 
-  handleClick = (e) => {
-    e.preventDefault()
-    const {
-      isActive
-    } = this.state
-    this.setState({
-      isActive: !isActive
-    })
-	}
-
 	renderWorkItems = () => {
 		const {
 			id,
@@ -38,16 +28,10 @@ class WorkItem extends React.Component {
 
 			return <>
 				<h1>
-					<button
-						type='button'
-						onClick={this.handleClick}
-					>
-						{ title }
-						{ isActive ? ' →' : '' }
-					</button>
+					{ title }
 				</h1>
 
-				<section className={`work-brief${isActive ? ' active' : '' }`}>
+				<section className='work-brief'>
 					<Link href={`/work/${id}`}>
 						<a className='work-brief__link'>
 							<dl>
@@ -107,11 +91,6 @@ class WorkItem extends React.Component {
 			{ this.renderWorkItems() }
 			<style global jsx>{`
 				.work-brief {
-					display: none;
-				}
-
-				.work-brief.active {
-					display: block;
 					margin-bottom: 1.5rem;
 				}
 
@@ -119,7 +98,7 @@ class WorkItem extends React.Component {
 					display: block;
 				}
 
-				.work-brief.active .work-brief__link:hover {
+				.work-brief .work-brief__link:hover {
 					opacity: .3;
 				}
 
@@ -151,8 +130,8 @@ class WorkItem extends React.Component {
 
 
 				@media screen and (min-width: 768px) {
-					.work-brief.active .work-brief__link,
-					.work-brief.active {
+					.work-brief .work-brief__link,
+					.work-brief {
 						display: flex;
 						align-items: flex-start;
 					}
@@ -161,7 +140,7 @@ class WorkItem extends React.Component {
 						margin-right: 1.5rem;
 					}
 
-					.work-brief.active {
+					.work-brief {
 						margin-bottom: 1.2rem;
 					}
 
@@ -181,7 +160,7 @@ class WorkItem extends React.Component {
 
 
         @media screen and (min-width: 768px) and (max-width: 992px) {
-          .work-brief.active .work-brief__link {
+          .work-brief .work-brief__link {
 						flex-wrap: wrap;
 					}
 
@@ -197,10 +176,7 @@ class WorkItem extends React.Component {
 					.work-brief__description {
 						width: 100%;
 					}
-
         }
-
-
 			`}</style>
 		</li>
 	}

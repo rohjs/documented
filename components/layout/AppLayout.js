@@ -85,8 +85,10 @@ const AppLayout = (props) => {
         }
 
         .list-item h1 {
+          font-weight: 400;
           font-size: 1rem;
           line-height: inherit;
+          text-decoration: underline;
         }
 
         .list-item ul {

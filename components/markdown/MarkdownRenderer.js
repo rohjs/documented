@@ -44,7 +44,7 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 
 		.markdown p + h4,
 		.markdown .img-container + h4 {
-			margin-top: 1.5rem;
+			margin-top: 2rem;
 		}
 
 		.markdown em {
@@ -71,7 +71,7 @@ const MarkdownRenderer = ({source}) => <article className='markdown'>
 		.markdown h4 {
 			margin-bottom: 20px;
 			font-size: .875rem;
-			font-weight: 500;
+			font-weight: 700;
 			text-transform: uppercase;
 			line-height: 1.5;
 		}

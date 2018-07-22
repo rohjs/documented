@@ -11,12 +11,15 @@
 		"description": "Find your travel buddy — A mobile app for solo travellers to meet others"
 	},
 	{
-		"id": "ted-mobile",
+		"id": "ted-redesign",
 		"title": "TED Redesign",
-		"status": false,
+		"status": true,
 		"time": 2016,
-		"categories": [],
-		"description": ""
+		"categories": [
+			"UI/UX Design",
+			"Mobile Design"
+		],
+		"description": "TED iOS Mobile Application Redesign Showcase"
 	},
 	{
 		"id": "four-questions",

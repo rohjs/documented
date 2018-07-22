@@ -159,7 +159,7 @@ class Sidebar extends React.Component {
             .info {
               margin-top: 0;
             }
-
+u
             .name {
               line-height: 1.5;
             }
