@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import Link from 'next/link'
 import AppLayout from '../components/layout/AppLayout'
 import MarkdownRenderer from '../components/markdown/MarkdownRenderer'
 import fetch from 'isomorphic-unfetch'
@@ -12,12 +11,13 @@ const Loading = () => {
 }
 
 class Work extends React.Component {
+
+
   static async getInitialProps ({query}) {
     const id = query.id
     const hostname = typeof window === 'undefined'
       ? 'http://localhost:3000'
       : location.origin
-
     const res = await fetch(`${hostname}/static/works/${id}.md`)
     const source = await res.text()
 
@@ -25,6 +25,7 @@ class Work extends React.Component {
       source
     }
   }
+
 
   renderWork = () => {
     const {

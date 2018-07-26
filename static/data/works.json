@@ -24,17 +24,23 @@
 	{
 		"id": "four-questions",
 		"title": "Four Questions",
-		"status": false,
+		"status": true,
 		"time": 2016,
-		"categories": [],
-		"description": ""
+		"categories": [
+			"UX Study",
+			"Video Editing"
+		],
+		"description": "Interview"
 	},
 	{
 		"id": "samantha",
 		"title": "Samantha",
-		"status": false,
+		"status": true,
 		"time": 2015,
-		"categories": [],
-		"description": ""
+		"categories": [
+			"Contest/1st",
+			"UI/UX Design"
+		],
+		"description": "Imagination Contest, Art&Technology"
 	}
 ]

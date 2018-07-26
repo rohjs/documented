@@ -123,6 +123,10 @@ const AppLayout = (props) => {
           background-color: transparent;
         }
 
+        ::selection {
+          background: #292b2c;
+        }
+
         .video-wrapper {
           position: relative;
           width: 100%;

@@ -6,7 +6,9 @@ class Perks extends React.Component {
 
 		this.perks = [
 			'A Seoul based user interface & frontend developer',
-			'I build digital products with 🔥'
+			'I build digital products with 🔥',
+			'Got anything in mind?',
+			'Hit me up with email.'
 		]
 
 		this.state = {
@@ -23,8 +25,10 @@ class Perks extends React.Component {
 	}
 
 	tick = () => {
+		let perk = this.state.perk
+
 		this.setState({
-			perk: this.state.perk === 0 ? 1 : 0,
+			perk: perk === (this.perks - 1) ? 0 : ++perk ,
 		})
 	}
 

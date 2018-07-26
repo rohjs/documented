@@ -5,9 +5,10 @@ module.exports = {
   exportPathMap: function () {
     const basePathMap = {
       '/': { page: '/' },
-      '/404': { page: '/not-found' },
+      '/not-found': { page: '/not-found' },
       '/about': { page: '/about' },
       '/works': { page: '/works' },
+      '/work': { page: '/work' },
     }
     const workPathMap = worksData.reduce((acc, work) => {
       acc[`/work/${work.id}`] = {

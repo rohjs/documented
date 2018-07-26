@@ -5,7 +5,25 @@ import WorkItem from '../components/work/WorkItem'
 import workData from '../static/data/works.json'
 
 class Works extends React.Component {
+  constructor (props) {
+    super(props);
+
+    this.state = {
+      activeItem: false,
+    }
+  }
+
+  updateActiveItem = (index) => {
+    this.setState({
+      activeItem: index,
+    })
+  }
+
   renderWorkItems = () => {
+    const {
+      activeItem
+    } = this.state
+
     return workData.map((work, index) => {
       const {
         id,
@@ -18,11 +36,14 @@ class Works extends React.Component {
 
       return <WorkItem key={`work-${index}`}
         id={id}
+        index={index}
         title={title}
         status={status}
         time={time}
         categories={categories}
         description={description}
+        isActive={index === activeItem ? true : false}
+        updateActiveItem={this.updateActiveItem}
       />
     })
   }

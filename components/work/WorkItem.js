@@ -4,11 +4,16 @@ import Link from 'next/link'
 class WorkItem extends React.Component {
   constructor (props) {
     super(props)
+	}
 
-    this.state = {
-      isActive: false,
-    }
-  }
+	handleClick = () => {
+		const {
+			index,
+			updateActiveItem,
+		} = this.props
+
+		updateActiveItem(index)
+	}
 
 	renderWorkItems = () => {
 		const {
@@ -18,20 +23,22 @@ class WorkItem extends React.Component {
 			time,
 			categories,
 			description,
+			isActive,
 		} = this.props
-
-		const {
-			isActive
-		} = this.state
 
 		if (status) {
 
 			return <>
 				<h1>
-					{ title }
+					<button
+						type='button'
+						onClick={this.handleClick}
+					>
+						{ title }
+					</button>
 				</h1>
 
-				<section className='work-brief'>
+				<section className={`work-brief${isActive ? ' active' : ''}`}>
 					<Link href={`/work/${id}`}>
 						<a className='work-brief__link'>
 							<dl>
@@ -91,7 +98,12 @@ class WorkItem extends React.Component {
 			{ this.renderWorkItems() }
 			<style global jsx>{`
 				.work-brief {
-					margin-bottom: 1.5rem;
+					display: none;
+				}
+
+				.work-brief.active  {
+					display: block;
+					margin-bottom: 1rem;
 				}
 
 				.work-brief__link {
@@ -130,18 +142,15 @@ class WorkItem extends React.Component {
 
 
 				@media screen and (min-width: 768px) {
-					.work-brief .work-brief__link,
-					.work-brief {
+					.work-brief.active .work-brief__link,
+					.work-brief.active {
 						display: flex;
 						align-items: flex-start;
 					}
 
-					.work-brief {
-						margin-right: 1.5rem;
-					}
 
-					.work-brief {
-						margin-bottom: 1.2rem;
+					.work-brief__link {
+						overflow: hidden;
 					}
 
 					.work-brief dl {

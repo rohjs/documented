@@ -1,6 +1,6 @@
-<img src='http://www.rohjs.com/portfolio/assets/marco/contents/mockup-1.jpg' alt='Marko' class='header-img'/>
-
 # Marko
+
+<img src='http://www.rohjs.com/portfolio/assets/marco/contents/mockup-1.jpg' alt='Marko' class='header-img'/>
 
 ## 01. Idea
 여행— 여행이란 단어를 들으면 제일 먼저 떠오르는 생각이 무엇인가요? 아마 대부분 새로움, 즐거움, 설렘, 일탈을 떠올리지 않을까요? “여행과 변화를 사랑하는 사람은 생명을 가진 사람이다.”라고 바그너가 말했듯 우리는 여행을 통해 반복되는 일상에서 벗어나 그동안 보지 못했던 새로운 무언가를 찾으려고 하는지는 모르겠습니다. 이제 인터넷에 몇 번 검색만 하면 여행지에 관한 정보가 와르르 쏟아지는 시대에 사는 우리들에게 여행은 더이상 먼나라 이야기가 아닙니다. 매해 혼자, 혹은 친구들과 함께 모여 해외 여행을 떠나는 젊은 20-30대 개별 여행자들이 꾸준히 증가하고 있고, 여행은 어느덧 20-30대의 로망이자 문화로 자리잡아가고 있는 것 같습니다.
