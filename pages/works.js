@@ -1,33 +1,53 @@
 import React from 'react'
 import Head from 'next/head'
-import AppLayout from '../components/Layout/AppLayout'
-import MainLayout from '../components/Layout/MainLayout'
-import List from '../components/List'
+import AppLayout from '../components/layout/AppLayout'
+import WorkItem from '../components/work/WorkItem'
+import workData from '../static/data/works.json'
 
-const workList = {
-  'True North': [
-    '2016',
-  ],
-  'Fastcampus': [
-    '2017',
-    ''
-  ],
-  'Likelion': [
-    '2017'
-  ],
-  'Insomenia': [
-    '2017'
-  ],
-  'Revisolution': [
-    '2017'
-  ],
-  'Sunday UI': [
-    '2018'
-  ],
-}
+class Works extends React.Component {
+  constructor (props) {
+    super(props);
 
-class Work extends React.Component {
-  handleClick
+    this.state = {
+      activeItem: false,
+    }
+  }
+
+  updateActiveItem = (index) => {
+    this.setState({
+      activeItem: index,
+    })
+  }
+
+  renderWorkItems = () => {
+    const {
+      activeItem
+    } = this.state
+
+    return workData.map((work, index) => {
+      const {
+        id,
+        title,
+        status,
+        time,
+        categories,
+        description,
+      } = work
+
+      return <WorkItem key={`work-${index}`}
+        id={id}
+        index={index}
+        title={title}
+        status={status}
+        time={time}
+        categories={categories}
+        description={description}
+        isActive={index === activeItem ? true : false}
+        updateActiveItem={this.updateActiveItem}
+      />
+    })
+  }
+
   render () {
     return (
       <AppLayout>
@@ -35,26 +55,15 @@ class Work extends React.Component {
           <title>works / roh woohyeon®</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
         </Head>
-        <section className='section'>
+        <section className='section--wide'>
           <h1 className='sr-only'>Works</h1>
           <ul className='works'>
-            {
-              // Object
-              //   .entries(workList)
-              //   .map(([title, contents], index) => {
-              //     return <List
-              //       key={index}
-              //       title={title}
-              //       contents={contents}
-              //     />
-              //   })
-            }
+            { this.renderWorkItems() }
           </ul>
-          <p>(Updating...)</p>
         </section>
       </AppLayout>
     )
   }
 }
 
-export default Work
+export default Works
