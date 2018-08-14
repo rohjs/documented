@@ -1,13 +1,4 @@
 // next.config.js
-<<<<<<< HEAD
-module.exports = {
-  exportPathMap: function () {
-    return {
-      '/': { page: '/' },
-      '/about': { page: '/about'},
-      '/works': { page: '/works'}
-    }
-=======
 const worksData = require('./static/data/works')
 
 module.exports = {
@@ -34,6 +25,5 @@ module.exports = {
       ...workPathMap,
     }
     return pathMap
->>>>>>> bd990ecbe403cbb9af33a8ecb8aa66cce0358de5
   }
 }

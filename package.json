@@ -22,12 +22,6 @@
   },
   "homepage": "https://github.com/rohjs/rohjs.github.io#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "front-matter": "^2.3.0",
-    "next": "^4.2.3",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
-=======
     "isomorphic-unfetch": "^2.0.0",
     "js-yaml": "^3.12.0",
     "moment": "^2.22.2",
@@ -42,7 +36,6 @@
     "remark-parse": "^5.0.0",
     "remark-rehype": "^3.0.0",
     "unified": "^7.0.0"
->>>>>>> bd990ecbe403cbb9af33a8ecb8aa66cce0358de5
   },
   "devDependencies": {
     "gulp": "^3.9.1"

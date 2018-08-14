@@ -1,11 +1,3 @@
-<<<<<<< HEAD
----
-title: Samantha
-year: 2015
-fields: Planning, UI/UX Design, Prototyping
-summary: 2015 Imagination Seminar 1st Prize
----
-=======
 # Samantha
 
 ## 01. Overview
@@ -63,4 +55,3 @@ summary: 2015 Imagination Seminar 1st Prize
 		allowfullscreen>
 	</iframe>
 </div>
->>>>>>> bd990ecbe403cbb9af33a8ecb8aa66cce0358de5

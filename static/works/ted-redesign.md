@@ -1,19 +1,3 @@
-<<<<<<< HEAD
----
-title: TED App Redesign
-year: 2016
-fields: UI/UX Design, Prototyping
-summary: TED iOS Mobile Application Redesign
----
-=======
-# TED Redesign
-
-<img src='http://www.rohjs.com/portfolio/assets/ted_redesign/contents/main-mockup.jpg' alt='TED iOS Application Redesign' class='header-img'/>
-
-## 01. Beginning
-Ideas worth spreading. TED는 세상에 널리 퍼질 가치가 있는 아이디어를 퍼뜨리자라는 모토 강연을 개최하는 비영리 단체입니다. TED에서는 Technology, Entertainment, Design 외에도 다양한 분야에서 연사를 초대해 18분 이내 짧은 강연이 진행되고 있습니다. 저는 2014년에는 TEDxSogangU의 Promotion Director, 2015년에는 Director를 맡았기에 자연스럽게 TED 강연을 습관적으로 듣곤 합니다. TED iOS 어플리케이션을 통해 주로 TED 강연을 시청하는데, 올드한 디자인과 불편한 사용성으로 늘 아쉬움을 느끼고 있었습니다. 그래서 이번 Design 수업의 기말 과제로 TED 모바일 어플리케이션의 사용성 개선 및 룩앤필 제안을 선정하게 되었습니다.
-
-## 02. Problem Analysis
 기존의 TED 모바일 어플리케이션은 다음과 같은 문제점을 지니고 있었습니다.
 
 #### 지나치게 많은 텍스트
@@ -51,4 +35,3 @@ TED 어플리케이션에서 제공하는 콘텐츠는 크게 플레이리스트
 		allowfullscreen>
 	</iframe>
 </div>
->>>>>>> bd990ecbe403cbb9af33a8ecb8aa66cce0358de5

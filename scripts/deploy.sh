@@ -2,7 +2,7 @@ cd out
 rm -Rf .git
 touch .nojekyll
 touch CNAME
-echo "www.rohjs.com" >> CNAME
+echo "www.rohwoohyeon.com" >> CNAME
 git init
 git add -A
 git commit -a -m "Deployed at $(date)"
