@@ -6,5 +6,5 @@ echo "www.rohwoohyeon.com" >> CNAME
 git init
 git add -A
 git commit -a -m "Deployed at $(date)"
-git remote add origin https://github.com/rohjs/rohjs.github.io.git
+git remote add origin https://github.com/whroh/whroh.github.io.git
 git push -f origin master

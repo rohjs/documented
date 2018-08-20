@@ -3,7 +3,7 @@
 ## 01. Overview
 한국에 관해 무엇이든 물어보세요! 필요할 때 언제든지 내 곁에 있어주는 All-in-one kit, Samantha 모바일 어플리케이션 서비스입니다. 매거진을 통해 실제 한국인의 삶을 반영한 생활밀착형 정보를 제공하고, 1:1 소통 서비스로 한국 여행 및 생활 시 궁금한 사항들을 즉각적으로 해결하여 외국인들이 한국관광 및 생활에 대한 만족감을 높이는 것이 목적입니다.
 
-<img src='http://www.rohjs.com/portfolio/assets/samantha/overview.jpg' alt='서비스 구상도' class='header-img'/>
+<img src='http://www.whroh.com/portfolio/assets/samantha/overview.jpg' alt='서비스 구상도' class='header-img'/>
 
 ## 02. Problem
 한국을 방문하는 관광객뿐만 아니라 학업, 비즈니스 등의 이유로 단/장기간 국내에 체류하는 외국인들의 수가 꾸준히 증가하고 있습니다. 이들 대다수가 한류에 대한 관심을 가지고 한국의 라이프 스타일을 즐기고자 한국을 방문하나, 실제로는 현지인들의 문화나 정보에 접근하지 못해 많은 불편함과 불만을 느끼고 있습니다.
@@ -42,7 +42,7 @@
 모바일 기반 서비스를 활용하여 더 많은 사람들이 쉽게 필요한 현지 생활/문화 정보에 접근할 수 있게 합니다.
 
 <div class='img-container'>
-	<img src="http://www.rohjs.com/portfolio/assets/samantha/main-2.jpg"
+	<img src="http://www.whroh.com/portfolio/assets/samantha/main-2.jpg"
   alt="Prototype">
 </div>
 <div class='video-wrapper'>
