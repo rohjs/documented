@@ -1,8 +1,9 @@
 # Marko
 
-<img src='https://www.rohwoohyeon.com/portfolio/assets/marco/contents/mockup-1.jpg' alt='Marko' class='header-img'/>
+<img src='/static/images/marco/mockup-1.jpg' alt='Marko' class='header-img'/>
 
 ## 01. Idea
+
 여행— 여행이란 단어를 들으면 제일 먼저 떠오르는 생각이 무엇인가요? 아마 대부분 새로움, 즐거움, 설렘, 일탈을 떠올리지 않을까요? “여행과 변화를 사랑하는 사람은 생명을 가진 사람이다.”라고 바그너가 말했듯 우리는 여행을 통해 반복되는 일상에서 벗어나 그동안 보지 못했던 새로운 무언가를 찾으려고 하는지는 모르겠습니다. 이제 인터넷에 몇 번 검색만 하면 여행지에 관한 정보가 와르르 쏟아지는 시대에 사는 우리들에게 여행은 더이상 먼나라 이야기가 아닙니다. 매해 혼자, 혹은 친구들과 함께 모여 해외 여행을 떠나는 젊은 20-30대 개별 여행자들이 꾸준히 증가하고 있고, 여행은 어느덧 20-30대의 로망이자 문화로 자리잡아가고 있는 것 같습니다.
 
 막상 여행을 떠나보니 기대했던 것만큼 재미있지는 않았다고 하는 사람들이 생각보다 많다는 거 아시나요? 인터넷의 블로그나 카페에 올린 다른 사람들의 여행은 그저 재밌고 행복해보이기만 하는데 왜 내 여행은 그렇지 않을까요? 힌트를 드리자면 여행 중 심심함과 외로움을 느꼈다고 대답한 사람 중 상당수가 혼자 여행을 떠난 1인 여행자라는 것입니다. 답을 예상하셨나요? 그 이유는 바로 여행의 감성을 함께 공유할 사람이 없기 때문입니다. 한국에서는 볼 수 없는 새로운 풍경과 문화를 느끼고 이색적인 음식을 맛본다고 하더라도, 그런 새로움이란 경험이 다른 사람들과 공유되지 못한채 내 안에만 머물러있으면, 새로움은 낯섬 혹은 외로움이란 감정으로 쉽게 모습을 바꿉니다. 경험은 다른 사람과 공유하면 할수록 확장되기 깊어지기 마련이죠. 더군다나 언어의 장벽이 큰 사람에겐 더 심하겠죠.
@@ -14,36 +15,35 @@
 크게 사용자 리서치는 두 가지 맥락에서 진행했습니다 —동행에 대한 수요, 인식 및 목적 등 타겟 유저에 과한 조사와 현재 해외 여행지에서 동행을 어떻게 구하고 있는지에 관한 As-is 조사입니다.
 
 먼저, 타겟 유저를 이해하기 위해 자체 설문 조사와 In Depth 인터뷰를 진행하였습니다.
-둘째, As-is 조사를 위해서 유럽여행 최대 커뮤니티인 네이버 ‘유랑’ 카페에서 어떻게 동행을 구하고 있는지를 분석하였습니다. 설레여행이나 가치가자와 같은 동행 구인을 위한 모바일 어플리케이션도 존재하나, 직관적이지 않고 불편한 UX 설계와 불안정한 어플리케이션 환경으로 사용자들이 많이 사용하지 않기 때문입니다. 현재 동행을 구하기 위해 많은 여행자들이 네이버/다음 카페를 이용하고 있는데, 유랑 카페에는 성수기와 비성수기에 상관없이 매일 300-400개의 동행구인글이 올라오는 등 최대 규모를 자랑하기 때문입니다. ‘유랑 동행’ 게시글 중 Simple Random Sampling을 통해 300개의 글을 샘플링하여 내용을 분석하므로써 사용자의 행태를 분석하였습니다. * 실제로 동행을 구할 때 주로 포털사이트 카페를 이용하거나 한인 민박에서 즉석으로 만나는 경우가 많은데, 한인 민박을 통한 경우는 조사에서 제외하였습니다.
+둘째, As-is 조사를 위해서 유럽여행 최대 커뮤니티인 네이버 ‘유랑’ 카페에서 어떻게 동행을 구하고 있는지를 분석하였습니다. 설레여행이나 가치가자와 같은 동행 구인을 위한 모바일 어플리케이션도 존재하나, 직관적이지 않고 불편한 UX 설계와 불안정한 어플리케이션 환경으로 사용자들이 많이 사용하지 않기 때문입니다. 현재 동행을 구하기 위해 많은 여행자들이 네이버/다음 카페를 이용하고 있는데, 유랑 카페에는 성수기와 비성수기에 상관없이 매일 300-400개의 동행구인글이 올라오는 등 최대 규모를 자랑하기 때문입니다. ‘유랑 동행’ 게시글 중 Simple Random Sampling을 통해 300개의 글을 샘플링하여 내용을 분석하므로써 사용자의 행태를 분석하였습니다. \* 실제로 동행을 구할 때 주로 포털사이트 카페를 이용하거나 한인 민박에서 즉석으로 만나는 경우가 많은데, 한인 민박을 통한 경우는 조사에서 제외하였습니다.
 
 #### A. 타겟 유저 설문 조사
 
 <div class='img-container'>
-	<img src='https://www.whroh.com/portfolio/assets/marco/contents/a-res-1.jpg' alt='해외 여행 시 한국인 동행을 구할 의사가 있습니까?' />
+	<img src='/static/images/marco/a-res-1.jpg' alt='해외 여행 시 한국인 동행을 구할 의사가 있습니까?' />
 </div>
 
 <div class='img-container'>
-	<img src='https://www.whroh.com/portfolio/assets/marco/contents/a-res-2.jpg' alt='있다고 대답한 경우, 그 이유는 무엇인가요?' />
+	<img src='/static/images/marco/a-res-2.jpg' alt='있다고 대답한 경우, 그 이유는 무엇인가요?' />
 </div>
 
 <div class='img-container'>
-	<img src='https://www.whroh.com/portfolio/assets/marco/contents/a-res-3.jpg' alt='없다고 대답한 경우, 그 이유는 무엇인가요?' />
+	<img src='/static/images/marco/a-res-3.jpg' alt='없다고 대답한 경우, 그 이유는 무엇인가요?' />
 </div>
 
 #### B. 현 유랑 카페 동행 행태 조사
 
 <div class='img-container'>
-	<img src='https://www.whroh.com/portfolio/assets/marco/contents/b-res-1.jpg' alt='동행을 희망하는 날짜' />
+	<img src='/static/images/marco/b-res-1.jpg' alt='동행을 희망하는 날짜' />
 </div>
 
 <div class='img-container'>
-	<img src='https://www.whroh.com/portfolio/assets/marco/contents/b-res-2.jpg' alt='동행 희망 기간' />
+	<img src='/static/images/marco/b-res-2.jpg' alt='동행 희망 기간' />
 </div>
 
 <div class='img-container'>
-	<img src='https://www.whroh.com/portfolio/assets/marco/contents/b-res-3.jpg' alt='연락 방법' />
+	<img src='/static/images/marco/b-res-3.jpg' alt='연락 방법' />
 </div>
-
 
 ## 03. Analysis
 
@@ -86,12 +86,13 @@ Simple, Quick and most importantly, Reliable.
 ## 06. Persona Development
 
 #### A. 동훈, 26살, 졸업예정자
+
 동훈이는 서울 소재 대학 경영학과 4학년 8학기 생이다. 대학 1학년까지 마치고 군대를 다녀왔고, 전역을 하자마자 학교에 복학해 학점 관리와 취업 준비를 했다. 7학기 상반기 인턴 채용에서 동훈이는 대기업 인턴으로 합격하여 여름 방학 때 열심히 일했고, 10월에 정규직 오퍼를 받았다. 다른 동기들은 모두 취업 준비로 정신이 없지만 이미 취업에 성공한 동훈이는 여유롭다. 막 학기를 다니던 그는 어느 날 문득 그동안 쉴 새 없이 달려오기만 한 것은 아닌가 회의감을 느꼈다. ‘앞으로 사회인이 되면 지금만큼 내 시간을 자유롭게 사용할 수 있는 날이 얼마나 될까.’ 몇 일 고민을 하던 그는 취업계를 신청하고 ‘인도 여행’을 즉흥적으로 떠났다.
 
 델리 공항에 내리자마자 동훈이는 자신이 여행 준비를 하지 않아도 너무 준비하지 않았다는 걸 느꼈다. 처음엔 막막하기만 했으나 그는 나름대로 인도에 적응하며 즐거운 여행을 하였다. 그러던 중 그는 우연히 인도 북부 라다크 지역이 아름답다는 이야기를 듣고 인도인이 운영하는 여행사에서 라다크 여행에 대해 알아보았다. 라다크에 가려면 지프차를 타고 육로로 40시간 이상 달려야 하는데, 이 투어를 이용하려면 자신을 포함해 총 6명의 사람을 모아야 한다고 여행사 직원이 말했다. 40시간 동안 말이 통하지 않은 외국인 친구들과 여행을 하는 것이 부담이 된 동훈이는 한국인 동행을 5명을 구하려고 한다. 인도 여행 카페에 동해 모집글을 올려도 되지만, 데이터도 부족하고 언제 답글이 달릴 지 모르기에 그는 답답하기만 하다.
 
 <div class='img-container'>
-	<img src='https://www.rohwoohyeon.com/portfolio/assets/marco/contents/persona-1.jpg' alt='페르소나 A형' />
+	<img src='/static/images/marco/persona-1.jpg' alt='페르소나 A형' />
 </div>
 
 #### B. 수진, 23살, 휴학생
@@ -101,7 +102,7 @@ Simple, Quick and most importantly, Reliable.
 그런데 여행을 막상 떠나고 보니 아쉬움의 연속이다. 식사를 할 때 유럽 사람들의 1인분은 양이 너무 많아 음식을 남기기 일수고, 여러 음식을 먹어보고 싶은데 비용 부담으로 늘 한 가지 음식 먹는 것이 아쉬웠다. 페이스북에 올라오는 다른 여행자들의 사진처럼 그녀도 멋진 전신 사진을 찍고 싶은데 언어에 대한 부담 때문에 다른 외국인에게 사진을 찍어달라고 부탁할 수가 없었다. (한 번 용기를 내서 찍어달라고 했더니 한국인 정서에 맞지 않은 이상한 사진을 찍어서 속상하기만 했다.) 그녀는 똑같은 자세에 똑같은 표정의 셀카만 찍는 것도 지겹기 시작했다. 게다가 유럽 여행의 낭만 중 하나인 야경을 바라보며 맥주를 먹는 것은 치안 걱정으로 꿈도 꾸지 못했다. 이러한 소소한 아쉬움이 쌓여 여행의 즐거움이 사라지기 전에 수진이는 한국인 동행을 구해야겠다고 마음을 먹었다. 그녀는 지금 바르셀로나를 여행 중인데 어디서, 어떻게 한국인 여행자를 찾을 수 있을지 막막하다. 그리고 막상 찾았다 하더라도 그 사람이 이상한 사람이면 어떡하지, 자신이 있는 곳에서 멀리 떨어진 곳에 있으면 어떡하지 등 걱정이 앞선다.
 
 <div class='img-container'>
-	<img src='https://www.rohwoohyeon.com/portfolio/assets/marco/contents/persona-2.jpg' alt='페르소나 B형' />
+	<img src='/static/images/marco/persona-2.jpg' alt='페르소나 B형' />
 </div>
 
 ## 07. Features & User Flows
@@ -152,7 +153,7 @@ Simple, Quick and most importantly, Reliable.
 </dl>
 </section>
 
-![User Flow Map](https://www.rohwoohyeon.com/portfolio/assets/marco/contents/userflow.jpg)
+![User Flow Map](/static/images/marco/userflow.jpg)
 
 ## 08. Prototype
 
