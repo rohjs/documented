@@ -2,7 +2,7 @@ import React from 'react'
 import Sidebar from './Sidebar'
 import ContentLayout from './ContentLayout'
 
-const AppLayout = props => {
+const DefaultLayout = props => {
   return (
     <div id="app">
       <Sidebar />
@@ -214,4 +214,4 @@ const AppLayout = props => {
   )
 }
 
-export default AppLayout
+export default DefaultLayout

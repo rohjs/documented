@@ -1,12 +1,12 @@
 import React from 'react'
-import AppLayout from '../components/layout/AppLayout'
+import DefaultLayout from '../components/layout/DefaultLayout'
 
-const NotFound = () => <AppLayout>
-	<section>
-		<h1>
-			404
-		</h1>
-	</section>
-</AppLayout>
+const NotFound = () => (
+  <DefaultLayout>
+    <section>
+      <h1>404</h1>
+    </section>
+  </DefaultLayout>
+)
 
 export default NotFound
