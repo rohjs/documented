@@ -24,19 +24,24 @@ class Sidebar extends React.Component {
             <ul className="links">
               <li>
                 <Link href="https://github.com/whroh">
-                  <a>Github →</a>
+                  <a target="_blank">Github →</a>
                 </Link>
               </li>
               <li>
                 <Link href="https://www.facebook.com/woohyeon.roh">
-                  <a>Facebook →</a>
+                  <a target="_blank">Facebook →</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.youtube.com/channel/UCFDbz39kFPvU0AUpgHx4ICw">
+                  <a target="_blank">Youtube →</a>
                 </Link>
               </li>
             </ul>
             <Perks />
           </div>
           <p className="year">
-            2016/2018 <sup>®</sup>
+            2016/2019 <sup>®</sup>
           </p>
         </div>
 
