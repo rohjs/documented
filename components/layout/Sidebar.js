@@ -3,47 +3,39 @@ import Link from 'next/link'
 import Perks from './Perks'
 
 class Sidebar extends React.Component {
-  render () {
+  render() {
     return (
-      <header className='sidebar'>
-        <h1 className='name'>
-          <Link href='/'>
+      <header className="sidebar">
+        <h1 className="name">
+          <Link href="/">
             <a>
               roh woohyeon <sup>TM</sup>
             </a>
           </Link>
         </h1>
-        <div className='sidebar__content'>
-          <div className='info'>
-            <Link href='mailto:roh.woohyeon@gmail.com'>
-              <a>
-                roh.woohyeon@gmail.com
-              </a>
+        <div className="sidebar__content">
+          <div className="info">
+            <Link href="mailto:roh.woohyeon@gmail.com">
+              <a>roh.woohyeon@gmail.com</a>
             </Link>
-            <p className='text'>
-              Seoul, Korea
-            </p>
+            <p className="text">Seoul, Korea</p>
           </div>
-          <div className='contact'>
-            <ul className='links'>
+          <div className="contact">
+            <ul className="links">
               <li>
-                <Link href='https://github.com/whroh'>
-                  <a>
-                    Github →
-                  </a>
+                <Link href="https://github.com/whroh">
+                  <a>Github →</a>
                 </Link>
               </li>
               <li>
-                <Link href='https://www.facebook.com/woohyeon.roh'>
-                  <a>
-                    Facebook →
-                  </a>
+                <Link href="https://www.facebook.com/woohyeon.roh">
+                  <a>Facebook →</a>
                 </Link>
               </li>
             </ul>
-          <Perks />
+            <Perks />
           </div>
-          <p className='year'>
+          <p className="year">
             2016/2018 <sup>®</sup>
           </p>
         </div>
@@ -71,9 +63,9 @@ class Sidebar extends React.Component {
 
           .name sup {
             margin-left: -2px;
-            font-size: .5rem;
+            font-size: 0.5rem;
             font-weight: 700;
-            letter-spacing: -.01em;
+            letter-spacing: -0.01em;
           }
 
           .info {
@@ -159,8 +151,7 @@ class Sidebar extends React.Component {
             .info {
               margin-top: 0;
             }
-u
-            .name {
+            u .name {
               line-height: 1.5;
             }
 

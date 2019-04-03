@@ -1,12 +1,12 @@
 import React from 'react'
 import Sidebar from './Sidebar'
-import MainLayout from './MainLayout'
+import ContentLayout from './ContentLayout'
 
 const AppLayout = props => {
   return (
     <div id="app">
       <Sidebar />
-      <MainLayout>{props.children}</MainLayout>
+      <ContentLayout>{props.children}</ContentLayout>
 
       <style global jsx>{`
         * {
