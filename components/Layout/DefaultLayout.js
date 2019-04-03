@@ -2,22 +2,21 @@ import React from 'react'
 import Sidebar from './Sidebar'
 import MainLayout from './MainLayout'
 
-const AppLayout = (props) => {
+const AppLayout = props => {
   return (
-    <div id='app'>
+    <div id="app">
       <Sidebar />
-      <MainLayout>
-        { props.children }
-      </MainLayout>
+      <MainLayout>{props.children}</MainLayout>
 
       <style global jsx>{`
         * {
           margin: 0;
           box-sizing: border-box;
           color: #292b2c;
-          font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+          font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI,
+            Roboto, Helvetica Neue, Arial, sans-serif;
           line-height: 1.5;
-          letter-spacing: -.01em;
+          letter-spacing: -0.01em;
         }
 
         html {
@@ -70,12 +69,12 @@ const AppLayout = (props) => {
         }
 
         .muted {
-          opacity: .3;
+          opacity: 0.3;
         }
 
         em.wip {
-          margin-left: .25rem;
-          font-size: .875em;
+          margin-left: 0.25rem;
+          font-size: 0.875em;
         }
 
         #app {
@@ -181,7 +180,6 @@ const AppLayout = (props) => {
           .btn--back {
             display: inline-block;
           }
-
         }
 
         @media screen and (min-width: 992px) {
@@ -210,8 +208,8 @@ const AppLayout = (props) => {
           .section--wide {
             width: 95%%;
           }
-		    }
-    `}</style>
+        }
+      `}</style>
     </div>
   )
 }
