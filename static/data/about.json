@@ -1,8 +1,5 @@
 {
-  "Languages": [
-    "Korean",
-    "English"
-  ],
+  "Languages": ["Korean", "English"],
   "Skills": [
     "HTML, CSS, Javascript",
     "ES6+, TypeScript",

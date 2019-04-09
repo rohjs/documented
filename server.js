@@ -9,22 +9,21 @@ const app = next({ dir: '.', dev })
 const handle = app.getRequestHandler()
 const routes = require('./routes')()
 
-app.prepare()
-	.then(() => {
-		const server = express()
+app.prepare().then(() => {
+  const server = express()
 
-		server.get('/work/:id', (req, res) => {
-			const actualPage = '/work'
-			const queryParams = { id: req.params.id }
-			app.render(req, res, actualPage, queryParams)
-		})
+  server.get('/work/:id', (req, res, next) => {
+    const route = '/work'
+    const queryParams = { id: req.params.id }
+    app.render(req, res, route, queryParams)
+  })
 
-		server.get('*', (req, res) => {
-			return handle(req, res)
-		})
+  server.get('*', (req, res, next) => {
+    return handle(req, res)
+  })
 
-		server.listen(PORT, err => {
-			if (err) throw err
-			console.log(`> Ready on http://localhost:${PORT}`)
-		})
+  server.listen(PORT, err => {
+    if (err) throw err
+    console.log(`> Ready on http://localhost:${PORT}`)
+  })
 })

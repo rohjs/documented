@@ -1,76 +1,65 @@
 import React from 'react'
 
 class SkillItem extends React.Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
 
     this.state = {
-      isActive: false,
+      isActive: false
     }
   }
 
-  handleClick = (e) => {
+  handleClick = e => {
     e.preventDefault()
-    const {
-      isActive
-    } = this.state
+    const { isActive } = this.state
     this.setState({
       isActive: !isActive
     })
   }
 
   renderSkillItems = () => {
-    const {
-      contents,
-    } = this.props
+    const { contents } = this.props
 
     if (contents) {
       return contents.map((content, index) => {
-        return (
-          <li key={`list-content-${index}`}>
-            {content}
-          </li>
-        )
+        return <li key={`list-content-${index}`}>{content}</li>
       })
     }
 
     return null
   }
 
-  render () {
-    const {
-      title,
-    } = this.props
+  render() {
+    const { title } = this.props
 
-    return <li className='list-item'>
-      <h1>
-        <button
-          type='button'
-          onClick={this.handleClick}
-        >
-          {title}
-        </button>
-      </h1>
+    return (
+      <li className="list-item">
+        <h1>
+          <button type="button" onClick={this.handleClick}>
+            {title}
+          </button>
+        </h1>
 
-      <ul className={this.state.isActive ? 'active' : ''}>
-        { this.renderSkillItems() }
-      </ul>
+        <ul className={this.state.isActive ? 'active' : ''}>
+          {this.renderSkillItems()}
+        </ul>
 
-      <style jsx>{`
-        .list-item ul {
-          display: none;
-          margin-bottom: 1.2rem;
-        }
+        <style jsx>{`
+          .list-item ul {
+            display: none;
+            margin-bottom: 1.2rem;
+          }
 
-        .list-item ul.active {
-          display: block;
-        }
+          .list-item ul.active {
+            display: block;
+          }
 
-        .list-item h1 button {
-          text-decoration: underline;
-        }
-      `}</style>
-    </li>
+          .list-item h1 button {
+            text-decoration: underline;
+          }
+        `}</style>
+      </li>
+    )
   }
 }
 
