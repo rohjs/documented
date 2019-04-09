@@ -17,11 +17,6 @@ class ContentLayout extends React.Component {
               </Link>
             </li>
             <li>
-              <Link href="/about">
-                <a className={pathname === '/about' ? 'active' : ''}>About</a>
-              </Link>
-            </li>
-            <li>
               <Link href="/works">
                 <a
                   className={

@@ -16,17 +16,6 @@ const Index = () => (
         />
       </Head>
       <section className="section">
-        <h1 className="sr-only">Hello</h1>
-        <div className="images">
-          <div className="image">
-            <img src="/static/images/computer-01.jpg" alt="Roh Woohyeon" />
-          </div>
-          <div className="image">
-            <img src="/static/images/computer-02.jpg" alt="Roh Woohyeon" />
-          </div>
-        </div>
-      </section>
-      <section className="section">
         <h1 className="sr-only">About</h1>
         <p>
           Hello, I’m Woohyeon Roh, a UI/UX developer based in South Korea. For
