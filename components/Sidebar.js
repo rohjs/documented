@@ -2,43 +2,35 @@ import React from 'react'
 import Link from 'next/link'
 
 class Sidebar extends React.Component {
-  render () {
+  render() {
     return (
-      <header className='sidebar'>
-        <h1 className='name'>
-          <Link href='/'>
+      <header className="sidebar">
+        <h1 className="name">
+          <Link href="/">
             <a>
               roh woohyeon <sup>TM</sup>
             </a>
           </Link>
         </h1>
-        <div className='info'>
-          <Link href='mailto:roh.woohyeon@gmail.com'>
-            <a>
-              roh.woohyeon@gmail.com
-            </a>
+        <div className="info">
+          <Link href="mailto:roh.woohyeon@gmail.com">
+            <a>roh.woohyeon@gmail.com</a>
           </Link>
-          <p className='text'>
-            Seoul, Korea
-          </p>
+          <p className="text">Seoul, Korea</p>
         </div>
-        <ul className='links'>
+        <ul className="links">
           <li>
-            <Link href='https://github.com/whroh'>
-              <a>
-                Github
-              </a>
+            <Link href="https://github.com/rohjs">
+              <a>Github</a>
             </Link>
           </li>
           <li>
-            <Link href='https://github.com/whroh'>
-              <a>
-                LinkedIn
-              </a>
+            <Link href="https://github.com/rohjs">
+              <a>LinkedIn</a>
             </Link>
           </li>
           <li>
-            <p className='year'>
+            <p className="year">
               2016/2018 <sup>®</sup>
             </p>
           </li>

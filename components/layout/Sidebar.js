@@ -23,7 +23,7 @@ class Sidebar extends React.Component {
           <div className="contact">
             <ul className="links">
               <li>
-                <Link href="https://github.com/whroh">
+                <Link href="https://github.com/rohjs">
                   <a target="_blank">Github →</a>
                 </Link>
               </li>
