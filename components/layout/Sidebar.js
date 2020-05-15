@@ -33,7 +33,7 @@ class Sidebar extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link href="https://www.youtube.com/channel/UCFDbz39kFPvU0AUpgHx4ICw">
+                <Link href="https://www.youtube.com/c/kimbug">
                   <a target="_blank">Youtube →</a>
                 </Link>
               </li>
@@ -41,7 +41,7 @@ class Sidebar extends React.Component {
             <Perks />
           </div>
           <p className="year">
-            2016/2019 <sup>®</sup>
+            2016/2020 <sup>®</sup>
           </p>
         </div>
 

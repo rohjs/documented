@@ -1,15 +1,10 @@
 // next.config.js
 const worksData = require('./static/data/works')
+const routes = require('./routes')
 
 module.exports = {
-  exportPathMap: function () {
-    const basePathMap = {
-      '/': { page: '/' },
-      '/not-found': { page: '/not-found' },
-      '/about': { page: '/about' },
-      '/works': { page: '/works' },
-      '/work': { page: '/work' },
-    }
+  exportPathMap: function() {
+    const basePathMap = routes
     const workPathMap = worksData.reduce((acc, work) => {
       acc[`/work/${work.id}`] = {
         page: '/work',
@@ -22,7 +17,7 @@ module.exports = {
 
     const pathMap = {
       ...basePathMap,
-      ...workPathMap,
+      ...workPathMap
     }
     return pathMap
   }

@@ -1,46 +1,34 @@
 [
-	{
-		"id": "marko",
-		"title": "Marko",
-		"status": true,
-		"time": 2016,
-		"categories": [
-			"UI/UX Design",
-			"Mobile Design"
-		],
-		"description": "Find your travel buddy — A mobile app for solo travellers to meet others"
-	},
-	{
-		"id": "ted-redesign",
-		"title": "TED Redesign",
-		"status": true,
-		"time": 2016,
-		"categories": [
-			"UI/UX Design",
-			"Mobile Design"
-		],
-		"description": "TED iOS Mobile Application Redesign Showcase"
-	},
-	{
-		"id": "four-questions",
-		"title": "Four Questions",
-		"status": true,
-		"time": 2016,
-		"categories": [
-			"UX Study",
-			"Video Editing"
-		],
-		"description": "Interview"
-	},
-	{
-		"id": "samantha",
-		"title": "Samantha",
-		"status": true,
-		"time": 2015,
-		"categories": [
-			"Contest/1st",
-			"UI/UX Design"
-		],
-		"description": "Imagination Contest, Art&Technology"
-	}
+  {
+    "id": "marko",
+    "title": "Marko",
+    "status": true,
+    "time": 2016,
+    "categories": ["UI/UX Design", "Mobile Design"],
+    "description": "Find your travel buddy — A mobile app for solo travellers to meet others"
+  },
+  {
+    "id": "ted-redesign",
+    "title": "TED Redesign",
+    "status": true,
+    "time": 2016,
+    "categories": ["UI/UX Design", "Mobile Design"],
+    "description": "TED iOS Mobile Application Redesign Showcase"
+  },
+  {
+    "id": "four-questions",
+    "title": "Four Questions",
+    "status": true,
+    "time": 2016,
+    "categories": ["UX Study", "Video Editing"],
+    "description": "Interview"
+  },
+  {
+    "id": "samantha",
+    "title": "Samantha",
+    "status": true,
+    "time": 2015,
+    "categories": ["Contest/1st", "UI/UX Design"],
+    "description": "Imagination Contest, Art&Technology"
+  }
 ]
