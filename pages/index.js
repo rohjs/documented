@@ -1,22 +1,21 @@
 import React from 'react'
 import Head from 'next/head'
 import DefaultLayout from '../components/layout/DefaultLayout'
-import SkillItem from '../components/skill/SkillItem'
-import aboutList from '../static/data/about.json'
+import SkillList from '../components/SkillList'
 
 const Index = () => (
-  <div id="wrap">
+  <div id='wrap'>
     <DefaultLayout>
       <Head>
         <title>roh woohyeon®</title>
         <meta
-          name="viewport"
-          content="initial-scale=1.0, width=device-width"
-          key="viewport"
+          name='viewport'
+          content='initial-scale=1.0, width=device-width'
+          key='viewport'
         />
       </Head>
-      <section className="section">
-        <h1 className="sr-only">About</h1>
+      <section className='section'>
+        <h1 className='sr-only'>About</h1>
         <p>
           Hello, I’m Woohyeon Roh, a UI/UX developer based in South Korea. For
           past 3+ years, I've worked as a both designer and frontend developer
@@ -28,48 +27,12 @@ const Index = () => (
           learning new stuff and endeavor to quickly follow latest trend of
           technology.
         </p>
-        <ul className="skill-list">
-          {Object.entries(aboutList).map(([title, contents], index) => (
-            <SkillItem key={index} title={title} contents={contents} />
-          ))}
-        </ul>
+        <SkillList />
       </section>
     </DefaultLayout>
     <style jsx>{`
       p {
         margin-bottom: 1rem;
-      }
-
-      img {
-        width: 100%;
-        height: auto;
-      }
-
-      .image {
-        width: 100%;
-        margin-bottom: 1rem;
-      }
-
-      @media screen and (min-width: 768px) {
-        .images {
-          overflow-x: hidden;
-          width: 100%;
-        }
-      }
-
-      @media screen and (min-width: 992px) {
-        .images {
-          display: flex;
-          align-items: flex-start;
-        }
-
-        .image:first-child {
-          margin-right: 1rem;
-        }
-
-        .image {
-          max-width: 50%;
-        }
       }
     `}</style>
   </div>
