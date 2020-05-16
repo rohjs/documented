@@ -1,4 +1,10 @@
 {
   "singleQuote": true,
-  "semi": false
+  "semi": false,
+  "jsxSingleQuote": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "tabWidth": 2,
+  "bracketSpacing": true,
+  "jsxBracketSameLine": true
 }
