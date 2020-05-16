@@ -1,0 +1,10 @@
+.perks {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .perks {
+    display: block;
+    margin-top: 2.5rem;
+  }
+}
