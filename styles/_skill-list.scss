@@ -1,0 +1,16 @@
+.list-item ul {
+  display: none;
+  margin-bottom: 1.2rem;
+}
+
+.list-item ul.active {
+  display: block;
+}
+
+.list-item h1 button {
+  text-decoration: underline;
+}
+
+.list-item .active {
+  text-decoration: none;
+}
