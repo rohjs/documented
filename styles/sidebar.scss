@@ -1,0 +1,139 @@
+.sidebar {
+  position: relative;
+  padding: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.name {
+  margin-bottom: 3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.text {
+  margin-bottom: 0;
+}
+
+.name a:hover {
+  text-decoration: none;
+}
+
+.name sup {
+  margin-left: -2px;
+  font-size: 0.5rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.info {
+  margin-top: 1rem;
+}
+
+.links {
+  margin-top: 1rem;
+}
+
+.links a {
+  text-decoration: underline;
+}
+
+.year sup {
+  position: relative;
+  top: 3px;
+  right: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.year {
+  position: absolute;
+  top: 17px;
+  right: 1rem;
+}
+
+.perks {
+  display: none;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact .links {
+  min-width: 50%;
+}
+
+@media screen and (min-width: 540px) {
+  .year {
+    top: 19px;
+    right: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    width: 40%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 0;
+    padding-bottom: 50px;
+  }
+
+  .content {
+    display: block;
+    margin-top: 4rem;
+  }
+
+  .text {
+    margin-bottom: 1rem;
+  }
+
+  .year {
+    position: absolute;
+    top: initial;
+    bottom: 24px;
+    left: 50px;
+    right: initial;
+    margin-bottom: 0;
+  }
+
+  .links {
+    margin: 1rem 0;
+  }
+
+  .perks {
+    display: block;
+  }
+
+  .info {
+    margin-top: 0;
+  }
+
+  .name {
+    margin-bottom: 5rem;
+    line-height: 1.5;
+  }
+
+  .contact {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .sidebar {
+    position: relative;
+    width: 30%;
+    height: 100vh;
+    padding: 50px;
+    padding-bottom: 1rem;
+  }
+
+  .content {
+    margin-top: 5rem;
+  }
+
+  .perks {
+    margin-top: 3rem;
+  }
+}
