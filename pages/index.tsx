@@ -1,9 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
-import DefaultLayout from '../components/layout/DefaultLayout'
+
+import { DefaultLayout } from '../components/Layout'
 import SkillList from '../components/SkillList'
 
-const Index = () => (
+const Index = (): JSX.Element => (
   <div id='wrap'>
     <DefaultLayout>
       <Head>
@@ -30,11 +31,6 @@ const Index = () => (
         <SkillList />
       </section>
     </DefaultLayout>
-    <style jsx>{`
-      p {
-        margin-bottom: 1rem;
-      }
-    `}</style>
   </div>
 )
 

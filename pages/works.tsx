@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Head from 'next/head'
-import DefaultLayout from '../components/Layout/DefaultLayout'
+
+import { DefaultLayout } from '../components/Layout'
 import WorkItem from '../components/work/WorkItem'
 import workData from '../static/data/works.json'
 

@@ -1,7 +1,8 @@
 import React from 'react'
-import DefaultLayout from '../components/layout/DefaultLayout'
 
-const NotFound = () => (
+import { DefaultLayout } from '../components/Layout'
+
+const NotFound = (): JSX.Element => (
   <DefaultLayout>
     <section>
       <h1>404</h1>
