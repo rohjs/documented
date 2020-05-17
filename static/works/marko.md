@@ -20,50 +20,46 @@
 #### A. 타겟 유저 설문 조사
 
 <div class='img-container'>
-	<img src='/static/images/marco/a-res-1.jpg' alt='해외 여행 시 한국인 동행을 구할 의사가 있습니까?' />
+  <img src='/static/images/marco/a-res-1.jpg' alt='해외 여행 시 한국인 동행을 구할 의사가 있습니까?' />
 </div>
 
 <div class='img-container'>
-	<img src='/static/images/marco/a-res-2.jpg' alt='있다고 대답한 경우, 그 이유는 무엇인가요?' />
+  <img src='/static/images/marco/a-res-2.jpg' alt='있다고 대답한 경우, 그 이유는 무엇인가요?' />
 </div>
 
 <div class='img-container'>
-	<img src='/static/images/marco/a-res-3.jpg' alt='없다고 대답한 경우, 그 이유는 무엇인가요?' />
+  <img src='/static/images/marco/a-res-3.jpg' alt='없다고 대답한 경우, 그 이유는 무엇인가요?' />
 </div>
 
 #### B. 현 유랑 카페 동행 행태 조사
 
 <div class='img-container'>
-	<img src='/static/images/marco/b-res-1.jpg' alt='동행을 희망하는 날짜' />
+  <img src='/static/images/marco/b-res-1.jpg' alt='동행을 희망하는 날짜' />
 </div>
 
 <div class='img-container'>
-	<img src='/static/images/marco/b-res-2.jpg' alt='동행 희망 기간' />
-</div>
-
-<div class='img-container'>
-	<img src='/static/images/marco/b-res-3.jpg' alt='연락 방법' />
+  <img src='/static/images/marco/b-res-2.jpg' alt='동행 희망 기간' />
 </div>
 
 ## 03. Analysis
 
 <section class='small-list__container'>
 <dl class='small-list--50'>
-	<dt>타겟 유저</dt>
-	<dd>여행 중에 동행을 찾는 경우가 많음 (여행 전 동행을 구하는 경우가 10% 미만)</dd>
-	<dd>여행 중 불필요한 시간 낭비를 하고 싶어하지 않음</dd>
-	<dd>즉흥적이다, impatient</dd>
-	<dd>낯선 여행지에서 만난 인연에 관한 로맨스가 존재</dd>
-	<dd>불안과 설렘이 공존</dd>
-	<dd>온라인으로 낯선 사람을 낯선 여행지에서 만난다는 것에 대한 부담, 불안 존재</dd>
-	<dd>행동 반경이 좁음, 낯선 여행지</dd>
+  <dt>타겟 유저</dt>
+  <dd>여행 중에 동행을 찾는 경우가 많음 (여행 전 동행을 구하는 경우가 10% 미만)</dd>
+  <dd>여행 중 불필요한 시간 낭비를 하고 싶어하지 않음</dd>
+  <dd>즉흥적이다, impatient</dd>
+  <dd>낯선 여행지에서 만난 인연에 관한 로맨스가 존재</dd>
+  <dd>불안과 설렘이 공존</dd>
+  <dd>온라인으로 낯선 사람을 낯선 여행지에서 만난다는 것에 대한 부담, 불안 존재</dd>
+  <dd>행동 반경이 좁음, 낯선 여행지</dd>
 </dl>
 
 <dl class='small-list--50'>
-	<dt>현재 동행 플랫폼 서비스</dt>
-	<dd><em class='mr-2'>Functionality</em> Legacy 기술에 바탕하고 있어 즉석으로 만나는 것에 대해 적합하지 않음</dd>
-	<dd><em class='mr-2'>Aesthetic Impression</em> 시각적인 차별화 없음</dd>
-	<dd><em class='mr-2'>Experience</em> 정보의 비대칭성, 비효율적, 번거롭고 불안하다.</dd>
+  <dt>현재 동행 플랫폼 서비스</dt>
+  <dd><em class='mr-2'>Functionality</em> Legacy 기술에 바탕하고 있어 즉석으로 만나는 것에 대해 적합하지 않음</dd>
+  <dd><em class='mr-2'>Aesthetic Impression</em> 시각적인 차별화 없음</dd>
+  <dd><em class='mr-2'>Experience</em> 정보의 비대칭성, 비효율적, 번거롭고 불안하다.</dd>
 </dl>
 </section>
 
@@ -92,7 +88,7 @@ Simple, Quick and most importantly, Reliable.
 델리 공항에 내리자마자 동훈이는 자신이 여행 준비를 하지 않아도 너무 준비하지 않았다는 걸 느꼈다. 처음엔 막막하기만 했으나 그는 나름대로 인도에 적응하며 즐거운 여행을 하였다. 그러던 중 그는 우연히 인도 북부 라다크 지역이 아름답다는 이야기를 듣고 인도인이 운영하는 여행사에서 라다크 여행에 대해 알아보았다. 라다크에 가려면 지프차를 타고 육로로 40시간 이상 달려야 하는데, 이 투어를 이용하려면 자신을 포함해 총 6명의 사람을 모아야 한다고 여행사 직원이 말했다. 40시간 동안 말이 통하지 않은 외국인 친구들과 여행을 하는 것이 부담이 된 동훈이는 한국인 동행을 5명을 구하려고 한다. 인도 여행 카페에 동해 모집글을 올려도 되지만, 데이터도 부족하고 언제 답글이 달릴 지 모르기에 그는 답답하기만 하다.
 
 <div class='img-container'>
-	<img src='/static/images/marco/persona-1.jpg' alt='페르소나 A형' />
+  <img src='/static/images/marco/persona-1.jpg' alt='페르소나 A형' />
 </div>
 
 #### B. 수진, 23살, 휴학생
@@ -102,7 +98,7 @@ Simple, Quick and most importantly, Reliable.
 그런데 여행을 막상 떠나고 보니 아쉬움의 연속이다. 식사를 할 때 유럽 사람들의 1인분은 양이 너무 많아 음식을 남기기 일수고, 여러 음식을 먹어보고 싶은데 비용 부담으로 늘 한 가지 음식 먹는 것이 아쉬웠다. 페이스북에 올라오는 다른 여행자들의 사진처럼 그녀도 멋진 전신 사진을 찍고 싶은데 언어에 대한 부담 때문에 다른 외국인에게 사진을 찍어달라고 부탁할 수가 없었다. (한 번 용기를 내서 찍어달라고 했더니 한국인 정서에 맞지 않은 이상한 사진을 찍어서 속상하기만 했다.) 그녀는 똑같은 자세에 똑같은 표정의 셀카만 찍는 것도 지겹기 시작했다. 게다가 유럽 여행의 낭만 중 하나인 야경을 바라보며 맥주를 먹는 것은 치안 걱정으로 꿈도 꾸지 못했다. 이러한 소소한 아쉬움이 쌓여 여행의 즐거움이 사라지기 전에 수진이는 한국인 동행을 구해야겠다고 마음을 먹었다. 그녀는 지금 바르셀로나를 여행 중인데 어디서, 어떻게 한국인 여행자를 찾을 수 있을지 막막하다. 그리고 막상 찾았다 하더라도 그 사람이 이상한 사람이면 어떡하지, 자신이 있는 곳에서 멀리 떨어진 곳에 있으면 어떡하지 등 걱정이 앞선다.
 
 <div class='img-container'>
-	<img src='/static/images/marco/persona-2.jpg' alt='페르소나 B형' />
+  <img src='/static/images/marco/persona-2.jpg' alt='페르소나 B형' />
 </div>
 
 ## 07. Features & User Flows
@@ -111,45 +107,45 @@ Simple, Quick and most importantly, Reliable.
 
 <section class='small-list__container'>
 <dl class='small-list--33'>
-	<dt>동행 찾기</dt>
-	<dd>프로필 정보 보기</dd>
-	<dd>여행 히스토리 보기</dd>
-	<dd>다른 사람들의 해당 사용자에 대한 리뷰 보기</dd>
-	<dd>나와 어느 정도 떨어진 거리에 있는지 보기</dd>
+  <dt>동행 찾기</dt>
+  <dd>프로필 정보 보기</dd>
+  <dd>여행 히스토리 보기</dd>
+  <dd>다른 사람들의 해당 사용자에 대한 리뷰 보기</dd>
+  <dd>나와 어느 정도 떨어진 거리에 있는지 보기</dd>
 </dl>
 
 <dl class='small-list--33'>
-	<dt>채팅 하기</dt>
-	<dd>함께 동행하자고 제안하기</dd>
-	<dd>정보 주고 받기</dd>
+  <dt>채팅 하기</dt>
+  <dd>함께 동행하자고 제안하기</dd>
+  <dd>정보 주고 받기</dd>
 </dl>
 
 <dl class='small-list--33'>
-	<dt>여행 히스토리 남기기(=타임라인)</dt>
-	<dd>여행 일기 쓰기<dd>
-	<dd>사진 남기기<dd>
-	<dd>여행지 체크인<dd>
+  <dt>여행 히스토리 남기기(=타임라인)</dt>
+  <dd>여행 일기 쓰기<dd>
+  <dd>사진 남기기<dd>
+  <dd>여행지 체크인<dd>
 </dl>
 
 <dl class='small-list--33'>
-	<dt>마이페이지</dt>
-	<dd>프로필 수정</dd>
-	<dd>동행구함/구하지않음 상태 설정</dd>
-	<dd>자신의 현위치 공유 설정</dd>
+  <dt>마이페이지</dt>
+  <dd>프로필 수정</dd>
+  <dd>동행구함/구하지않음 상태 설정</dd>
+  <dd>자신의 현위치 공유 설정</dd>
 </dl>
 
 <dl class='small-list--33'>
-	<dt>단체 동행</dt>
-	<dd>단체 동행방 형성</dd>
-	<dd>단체 동행방 참여</dd>
+  <dt>단체 동행</dt>
+  <dd>단체 동행방 형성</dd>
+  <dd>단체 동행방 참여</dd>
 </dl>
 
 <dl class='small-list--33'>
-	<dt>설정</dt>
-	<dd>안심 멤버 등록</dd>
-	<dd>현 위치 On/Off 설정</dd>
-	<dd>알림 설정</dd>
-	<dd>이용약관 및 기타</dd>
+  <dt>설정</dt>
+  <dd>안심 멤버 등록</dd>
+  <dd>현 위치 On/Off 설정</dd>
+  <dd>알림 설정</dd>
+  <dd>이용약관 및 기타</dd>
 </dl>
 </section>
 
@@ -158,12 +154,12 @@ Simple, Quick and most importantly, Reliable.
 ## 08. Prototype
 
 <div class='video-wrapper'>
-	<iframe
-		src='https://player.vimeo.com/video/196099596'
-		class='video'
-		width='640'
-		height='360'
-		frameborder='0'
-		allowfullscreen>
-	</iframe>
+  <iframe
+    src='https://player.vimeo.com/video/196099596'
+    class='video'
+    width='640'
+    height='360'
+    frameborder='0'
+    allowfullscreen>
+  </iframe>
 </div>

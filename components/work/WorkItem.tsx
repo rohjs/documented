@@ -1,17 +1,16 @@
-import React from 'react'
+import React, { SetStateAction, Dispatch } from 'react'
 import cx from 'classnames'
-import Link from 'next/link'
 
 interface WorkItemProps {
   id: string
   title: string
-  status: string
-  time: string
+  status: boolean
+  time: number
   categories: string[]
   description: string
   index: number
   active: boolean
-  updateActiveItem: Function
+  setActiveWork: Dispatch<SetStateAction<number | null>>
 }
 
 const WorkItem = ({
@@ -23,10 +22,10 @@ const WorkItem = ({
   description,
   index,
   active,
-  updateActiveItem
+  setActiveWork
 }: WorkItemProps) => {
   const handleClick = () => {
-    updateActiveItem(index)
+    setActiveWork(index)
   }
 
   return (

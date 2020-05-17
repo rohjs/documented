@@ -1,7 +1,7 @@
 {
   "Languages": ["Korean", "English"],
   "Skills": [
-    "HTML, CSS, Javascript",
+    "HTML, CSS, JavaScript",
     "ES6+, TypeScript",
     "React, Redux",
     "Node, Express",
@@ -20,6 +20,7 @@
     "Promotion Director at TEDxSogangU / 2014",
     "Director at TEDxSogangU / 2015",
     "1st Prize / Imagination Content at Sogang Univ. / 2015",
-    "Kimbug / YouTube Creator / 2019-"
+    "YouTube Creator (Kimbug) / 2019-",
+    "Frontend Online Course Producer at Goorm Edu / 2020"
   ]
 }

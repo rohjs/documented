@@ -17,27 +17,27 @@ TED 어플리케이션에서 제공하는 콘텐츠는 크게 플레이리스트
 인터페이스 디자인은 초창기 어플리케이션 디자인의 모습을 보이고 있고, 이는 새롭고 창조적인 아이디어를 퍼뜨리려고 하는 TED의 철학과 반대됩니다.
 
 <div class='img-container'>
-	<img src='/static/images/ted_redesign/contents/prob-1.jpg' alt='문제점 1'>
+  <img src='/static/images/ted_redesign/contents/prob-1.jpg' alt='문제점 1'>
 </div>
 <div class='img-container'>
-	<img src='/static/images/ted_redesign/contents/prob-2.jpg' alt='문제점 2'>
+  <img src='/static/images/ted_redesign/contents/prob-2.jpg' alt='문제점 2'>
 </div>
 <div class='img-container'>
-	<img src='/static/images/ted_redesign/contents/prob-3.jpg' alt='문제점 3'>
+  <img src='/static/images/ted_redesign/contents/prob-3.jpg' alt='문제점 3'>
 </div>
 
 ## 03. Prototype
 
 <div class='img-container'>
-	<img src='/static/images/ted_redesign/contents/sub-mockup.jpg' alt='Prototype'>
+  <img src='/static/images/ted_redesign/contents/sub-mockup.jpg' alt='Prototype'>
 </div>
 <div class='video-wrapper'>
-	<iframe
-		src='https://player.vimeo.com/video/195231863'
-		class='video'
-		width='640'
-		height='360'
-		frameborder='0'
-		allowfullscreen>
-	</iframe>
+  <iframe
+    src='https://player.vimeo.com/video/195231863'
+    class='video'
+    width='640'
+    height='360'
+    frameborder='0'
+    allowfullscreen>
+  </iframe>
 </div>
