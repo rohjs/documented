@@ -1,3 +1,12 @@
+---
+id: 'marko'
+title: 'Marko'
+status: true
+time: 2016
+categories: ['UI/UX Design', 'Mobile Design']
+description: 'Find your travel buddy — A mobile app for solo travellers to meet others'
+---
+
 # Marko
 
 <img src='/static/images/marco/mockup-1.jpg' alt='Marko' class='header-img'/>

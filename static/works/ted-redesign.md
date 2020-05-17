@@ -1,3 +1,12 @@
+---
+id: 'ted-redesign'
+title: 'TED Redesign'
+status: true
+time: 2016
+categories: ['UI/UX Design', 'Mobile Design']
+description: 'TED iOS Mobile Application Redesign Showcase'
+---
+
 # TED Redesign
 
 기존의 TED 모바일 어플리케이션은 다음과 같은 문제점을 지니고 있었습니다.

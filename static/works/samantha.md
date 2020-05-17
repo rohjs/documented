@@ -1,3 +1,12 @@
+---
+id: 'samantha'
+title: 'Samantha'
+status: true
+time: 2015
+categories: ['Contest/1st', 'UI/UX Design']
+description: 'Imagination Contest, Art&Technology'
+---
+
 # Samantha
 
 ## 01. Overview

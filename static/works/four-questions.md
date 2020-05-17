@@ -1,3 +1,12 @@
+---
+id: 'four-questions'
+title: 'Four Questions'
+status: true
+time: 2016
+categories: ['UX Study', 'Video Editing']
+description: 'Interview'
+---
+
 # Four Questions
 
 <div class='video-wrapper'>
