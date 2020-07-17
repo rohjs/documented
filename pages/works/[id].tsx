@@ -8,7 +8,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   const paths = getAllWorkIds()
   return {
     paths,
-    fallback: true
+    fallback: false
   }
 }
 
