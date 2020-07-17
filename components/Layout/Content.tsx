@@ -17,10 +17,7 @@ const ContentLayout = ({ children }: ContentLayoutProps): JSX.Element => {
           <li className={cx({ active: pathname === '/' })}>
             <a href='/'>Index</a>
           </li>
-          <li
-            className={cx({
-              active: pathname === '/work' || pathname === '/works',
-            })}>
+          <li className={cx({ active: pathname === '/works' })}>
             <a href='/works'>Works</a>
           </li>
         </ul>

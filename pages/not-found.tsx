@@ -1,13 +1,13 @@
 import React from 'react'
 
-import { DefaultLayout } from '../components/Layout'
+import { Layout } from '../components'
 
 const NotFound = (): JSX.Element => (
-  <DefaultLayout>
+  <Layout title='404'>
     <section>
       <h1>404</h1>
     </section>
-  </DefaultLayout>
+  </Layout>
 )
 
 export default NotFound

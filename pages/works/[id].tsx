@@ -1,37 +1,10 @@
-import React, { useState, useEffect } from 'react'
-import Head from 'next/head'
-import axios, { AxiosResponse, AxiosError } from 'axios'
-import { useRouter } from 'next/router'
+import React from 'react'
+import { GetStaticProps, GetStaticPaths } from 'next'
 
 import { getAllWorkIds, getWorkData } from '../../lib/works'
-import { DefaultLayout } from '../../components/Layout'
-import MarkdownRenderer from '../../components/markdown/MarkdownRenderer'
+import { Layout, Loading, MarkdownRenderer } from '../../components'
 
-const Loading = () => {
-  return <div>Loading...</div>
-}
-
-const Work = ({ workData }): JSX.Element => {
-  return (
-    <DefaultLayout>
-      <Head>
-        <title>works / roh woohyeon®</title>
-        <meta
-          name='viewport'
-          content='initial-scale=1.0, width=device-width'
-          key='viewport'
-        />
-      </Head>
-      <section className='section'>
-        {workData ? <MarkdownRenderer source={workData} /> : <Loading />}
-      </section>
-    </DefaultLayout>
-  )
-}
-
-export default Work
-
-export async function getStaticPaths() {
+export const getStaticPaths: GetStaticPaths = async () => {
   const paths = getAllWorkIds()
   return {
     paths,
@@ -39,11 +12,23 @@ export async function getStaticPaths() {
   }
 }
 
-export async function getStaticProps({ params }) {
-  const workData = getWorkData(params.id)
+export const getStaticProps: GetStaticProps = async ({ params }) => {
+  const workData = getWorkData(params.id as string)
   return {
     props: {
       workData
     }
   }
 }
+
+const Work = ({ workData }): JSX.Element => {
+  return (
+    <Layout title='works'>
+      <section className='section'>
+        {workData ? <MarkdownRenderer source={workData} /> : <Loading />}
+      </section>
+    </Layout>
+  )
+}
+
+export default Work

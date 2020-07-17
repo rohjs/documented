@@ -1,20 +1,11 @@
 import React from 'react'
-import Head from 'next/head'
 
-import { DefaultLayout } from '../components/Layout'
-import SkillList from '../components/SkillList'
+import aboutList from '../static/data/about.json'
+import { Layout, Skill } from '../components'
 
 const Index = (): JSX.Element => (
   <div id='wrap'>
-    <DefaultLayout>
-      <Head>
-        <title>roh woohyeon®</title>
-        <meta
-          name='viewport'
-          content='initial-scale=1.0, width=device-width'
-          key='viewport'
-        />
-      </Head>
+    <Layout>
       <section className='section'>
         <h1 className='sr-only'>About</h1>
         <p>
@@ -28,9 +19,14 @@ const Index = (): JSX.Element => (
           learning new stuff and endeavor to quickly follow latest trend of
           technology.
         </p>
-        <SkillList />
+
+        <ul className='skill-list'>
+          {Object.entries(aboutList).map(([skill, details]) => (
+            <Skill key={`about-${skill}`} skill={skill} details={details} />
+          ))}
+        </ul>
       </section>
-    </DefaultLayout>
+    </Layout>
   </div>
 )
 
