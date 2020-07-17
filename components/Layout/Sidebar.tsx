@@ -29,7 +29,9 @@ const Sidebar = (): JSX.Element => {
               </a>
             </li>
             <li>
-              <a href='https://www.youtube.com/c/kimbug' target='_blank'>
+              <a
+                href='https://www.youtube.com/channel/UCFDbz39kFPvU0AUpgHx4ICw'
+                target='_blank'>
                 Youtube →
               </a>
             </li>
