@@ -1,3 +1,12 @@
+---
+id: 'samantha'
+title: 'Samantha'
+status: true
+time: 2015
+categories: ['Contest/1st', 'UI/UX Design']
+description: 'Imagination Contest, Art&Technology'
+---
+
 # Samantha
 
 ## 01. Overview
@@ -48,13 +57,13 @@
 
 모바일 기반 서비스를 활용하여 더 많은 사람들이 쉽게 필요한 현지 생활/문화 정보에 접근할 수 있게 합니다.
 
-<div class='video-wrapper'>
-	<iframe
-		src='https://player.vimeo.com/video/143585901'
-		class='video'
-		width='640'
-		height='360'
-		frameborder='0'
-		allowfullscreen>
-	</iframe>
+<div class='videoContainer'>
+  <iframe
+    src='https://player.vimeo.com/video/143585901'
+    class='video'
+    width='640'
+    height='360'
+    frameborder='0'
+    allowfullscreen>
+  </iframe>
 </div>
