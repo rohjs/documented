@@ -1,4 +1,5 @@
 import React, { useState, MouseEvent } from 'react'
+import cx from 'classnames'
 
 type SkillProps = {
   skill: string
@@ -14,14 +15,14 @@ export const Skill = ({ skill, details }: SkillProps): JSX.Element => {
   }
 
   return (
-    <li className='list-item'>
+    <li className='skill'>
       <h1>
         <button type='button' onClick={handleClick}>
           {skill}
         </button>
       </h1>
 
-      <ul className={active ? 'active' : ''}>
+      <ul className={cx({ active })}>
         {details.map((detail: string) => (
           <li key={`${skill}-${detail}`}>{detail}</li>
         ))}

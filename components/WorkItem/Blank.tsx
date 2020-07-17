@@ -6,8 +6,8 @@ type BlankProps = {
 }
 
 const Blank = ({ active }: BlankProps): JSX.Element => (
-  <section className={cx('work-brief', 'muted', { active })}>
-    <p className='work-brief__description text--muted'>
+  <section className={cx('workBrief', 'muted', { active })}>
+    <p className='description'>
       <em>Will be updated soon.</em>
     </p>
   </section>

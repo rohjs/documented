@@ -9,7 +9,7 @@ description: 'Interview'
 
 # Four Questions
 
-<div class='video-wrapper'>
+<div class='videoContainer'>
   <iframe
     src='https://player.vimeo.com/video/193155911'
     class='video'

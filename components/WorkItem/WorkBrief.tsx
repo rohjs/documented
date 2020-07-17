@@ -17,22 +17,22 @@ const WorkBrief = ({
   categories,
   description
 }: WorkBriefProps): JSX.Element => (
-  <section className={cx('work-brief', { active })}>
+  <section className={cx('workBrief', { active })}>
     <Link href='/works/[id]' as={`/works/${id}`}>
-      <a className='work-brief__link'>
+      <a>
         <dl>
-          <dt className='sr-only'>Production year</dt>
+          <dt className='srOnly'>Production year</dt>
           <dd>{time}</dd>
         </dl>
 
-        <dl className='work-brief__categories'>
-          <dt className='sr-only'>Category</dt>
+        <dl className='categories'>
+          <dt className='srOnly'>Category</dt>
           {categories.map((category: string) => (
             <dd key={`${id}-${category}`}>{category}</dd>
           ))}
         </dl>
 
-        <p className='work-brief__description'>{description}</p>
+        <p className='description'>{description}</p>
       </a>
     </Link>
   </section>

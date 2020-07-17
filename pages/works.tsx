@@ -31,8 +31,8 @@ const Works = ({ worksData }: WorksProps): JSX.Element => {
 
   return (
     <Layout title='works'>
-      <section className='section--wide'>
-        <h1 className='sr-only'>Works</h1>
+      <section className='sectionWide'>
+        <h1 className='srOnly'>Works</h1>
         <ul className='works'>
           {worksData.map((work: TWorkData) => {
             const { id, title, status, time, categories, description } = work

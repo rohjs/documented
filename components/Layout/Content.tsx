@@ -10,10 +10,11 @@ const ContentLayout = ({ children }: ContentLayoutProps): JSX.Element => {
   const { pathname } = useRouter()
 
   return (
-    <main id='main'>
+    <main>
       <nav className='gnb'>
-        <h1 className='sr-only'>Menu</h1>
-        <ul className='gnb-menu'>
+        <h1 className='srOnly'>Menu</h1>
+
+        <ul className='gnbMenu'>
           <li className={cx({ active: pathname === '/' })}>
             <a href='/'>Index</a>
           </li>

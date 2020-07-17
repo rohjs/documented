@@ -14,7 +14,7 @@ export const DefaultLayout = ({
   children
 }: DefaultLayoutProps): JSX.Element => {
   return (
-    <div id='app'>
+    <div className='app'>
       <Head title={title} />
       <Sidebar />
       <Content>{children}</Content>

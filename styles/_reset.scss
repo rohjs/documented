@@ -1,11 +1,11 @@
 * {
   margin: 0;
-  box-sizing: border-box;
-  color: #292b2c;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, Arial, sans-serif;
   line-height: 1.5;
   letter-spacing: -0.01em;
+  color: $DARK;
+  box-sizing: border-box;
 }
 
 html {
@@ -18,36 +18,36 @@ p {
 }
 
 a {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
 }
 
 button {
   padding: 0;
-  border: none;
-  border-radius: 0;
   font-size: 1rem;
   line-height: inherit;
-  background: transparent;
-  box-shadow: none;
   cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
 }
 
 button:hover,
 button:focus,
 button:active {
-  border: none;
+  border: 0;
   outline: none;
   box-shadow: none;
 }
 
 ul,
 ol {
-  list-style-type: none;
   padding-left: 0;
+  list-style-type: none;
 }
 
-.sr-only {
+.srOnly {
   position: absolute;
   top: 0;
   left: 0;
@@ -66,117 +66,107 @@ em.wip {
   font-size: 0.875em;
 }
 
-#app {
+.app {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
 }
 
-.list-item h1 {
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: inherit;
-  text-decoration: underline;
-}
+.skill {
+  h1 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: inherit;
+    text-decoration: underline;
 
-.list-item ul {
-  display: none;
-  margin-bottom: 1.2rem;
-}
+    button {
+      text-decoration: underline;
+    }
+  }
 
-.list-item ul.active {
-  display: block;
-}
+  ul {
+    display: none;
+    margin-bottom: 1.2rem;
 
-.list-item h1 button {
-  text-decoration: underline;
-}
-
-.btn--back {
-  position: relative;
-  bottom: 1rem;
-  display: none;
-  line-height: 1.5rem;
+    &.active {
+      display: block;
+    }
+  }
 }
 
 .section,
-.section--wide {
+.sectionWide {
   padding-bottom: 3rem;
 }
 
 ::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar {
-  width: 0;
-  background-color: transparent;
+  display: none;
 }
 
 ::selection {
-  background: #292b2c;
+  background-color: $DARK;
 }
 
-.video-wrapper {
+.videoContainer {
   position: relative;
   width: 100%;
   height: 0;
   padding-bottom: 56.25%;
+
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+  }
 }
 
-.video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-}
-
-@media screen and (min-width: 568px) {
+@include responsive(ML) {
   html {
     font-size: 16px;
   }
 
-  #app {
+  .app {
     width: 540px;
     margin: 0 auto;
   }
 }
 
-@media screen and (min-width: 768px) {
+@include responsive(T) {
   html {
     font-size: 18px;
   }
 
-  #app {
+  .app {
     display: flex;
-    width: 100%;
     align-items: stretch;
+    width: 100%;
     overflow: hidden;
   }
 
   .section,
-  .section--wide {
+  .sectionWide {
     width: 100%;
     padding-bottom: 6rem;
-    overflow: auto;
     margin-left: 5%;
+    overflow: auto;
   }
 
   .section {
     width: 85%;
   }
-
-  .btn--back {
-    display: inline-block;
-  }
 }
 
-@media screen and (min-width: 992px) {
+@include responsive(D) {
   html {
     font-size: 20px;
   }
 
-  #main {
+  main {
     padding-left: 4rem;
   }
 
@@ -185,8 +175,8 @@ em.wip {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  #main {
+@include responsive(HD) {
+  main {
     padding-left: 4rem;
   }
 
@@ -194,7 +184,7 @@ em.wip {
     width: 80%;
   }
 
-  .section--wide {
+  .sectionWide {
     width: 95%;
   }
 }

@@ -57,7 +57,7 @@ description: 'Imagination Contest, Art&Technology'
 
 모바일 기반 서비스를 활용하여 더 많은 사람들이 쉽게 필요한 현지 생활/문화 정보에 접근할 수 있게 합니다.
 
-<div class='video-wrapper'>
+<div class='videoContainer'>
   <iframe
     src='https://player.vimeo.com/video/143585901'
     class='video'

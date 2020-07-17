@@ -28,7 +28,7 @@ export const WorkItem = ({
   const handleClick = () => setActive(id)
 
   return (
-    <li className='list-item'>
+    <li className='skill'>
       <h1>
         <button type='button' onClick={handleClick}>
           {title}

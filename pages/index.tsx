@@ -7,7 +7,7 @@ const Index = (): JSX.Element => (
   <div id='wrap'>
     <Layout>
       <section className='section'>
-        <h1 className='sr-only'>About</h1>
+        <h1 className='srOnly'>About</h1>
         <p>
           Hello, I’m Woohyeon Roh, a UI/UX developer based in South Korea. For
           past 3+ years, I've worked as a both designer and frontend developer
@@ -20,7 +20,7 @@ const Index = (): JSX.Element => (
           technology.
         </p>
 
-        <ul className='skill-list'>
+        <ul>
           {Object.entries(aboutList).map(([skill, details]) => (
             <Skill key={`about-${skill}`} skill={skill} details={details} />
           ))}
