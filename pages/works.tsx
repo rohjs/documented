@@ -17,24 +17,20 @@ type WorksProps = {
   worksData: TWorkData[]
 }
 
-export const getStaticProps: GetStaticProps = async () => {
-  const worksData = getWorksData()
-  return {
-    props: {
-      worksData
-    }
-  }
-}
-
 const Works = ({ worksData }: WorksProps): JSX.Element => {
   const [active, setActive] = useState<string>('')
+  const sortedWorksData = worksData.sort((a, b) => {
+    if (a.time > b.time) return -1
+    if (a.time < b.time) return 1
+    return 0
+  })
 
   return (
     <Layout title='works'>
       <section className='sectionWide'>
         <h1 className='srOnly'>Works</h1>
         <ul className='works'>
-          {worksData.map((work: TWorkData) => {
+          {sortedWorksData.map((work: TWorkData) => {
             const { id, title, status, time, categories, description } = work
             return (
               <WorkItem
@@ -57,3 +53,12 @@ const Works = ({ worksData }: WorksProps): JSX.Element => {
 }
 
 export default Works
+
+export const getStaticProps: GetStaticProps = async () => {
+  const worksData = getWorksData()
+  return {
+    props: {
+      worksData
+    }
+  }
+}
