@@ -2,10 +2,11 @@
   "Languages": ["Korean", "English"],
   "Skills": [
     "HTML, CSS, JavaScript",
+    "SCSS/Sass",
     "ES6+, TypeScript",
     "React, Redux",
-    "Node, Express",
-    "Sketchapp, Figma"
+    "Node.js, Express",
+    "Figma"
   ],
   "Work experience": [
     "UI/UX designer at True North / 2016",
@@ -17,10 +18,11 @@
   ],
   "Etc": [
     "Volunteer at World Friends IT Korea / San Lorenzo, Paraguay / 2014",
-    "Promotion Director at TEDxSogangU / 2014",
-    "Director at TEDxSogangU / 2015",
+    "Promotion Director / TEDxSogangU / 2014",
+    "Director / TEDxSogangU / 2015",
     "1st Prize / Imagination Content at Sogang Univ. / 2015",
-    "YouTube Creator (Kimbug) / 2019-",
-    "Frontend Online Course Lecturer at Goorm Edu / 2020"
+    "YouTube Creator / Kimbug / 2019-",
+    "Frontend Online Course Lecturer / Goorm Edu / 2020",
+    "Appeared on Software Edu Festival 2020 / Naver Connect / 2020"
   ]
 }

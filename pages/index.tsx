@@ -9,15 +9,17 @@ const Index = (): JSX.Element => (
       <section className='section'>
         <h1 className='srOnly'>About</h1>
         <p>
-          Hello, I’m Woohyeon Roh, a UI/UX developer based in South Korea. For
-          past 3+ years, I've worked as a both designer and frontend developer
-          with a UX driven background. Typography passionate, clean and pure
-          code pursuing, I bridge the gap between design and development. I am
-          able to quickly adapt to new challenges. Being quite hands-on, I enjoy
-          getting involved in the whole process, starting from ideation and
-          conceptualizing to designing, prototyping, and building. I also love
-          learning new stuff and endeavor to quickly follow latest trend of
-          technology.
+          Hi, I’m Woohyeon, a frontend developer based in Seoul, Korea and yes,
+          I love designing and building digital products. For past 4+ years,
+          I've done working in startups, and collaborated with talented people
+          to create digital products for both business and consumer use.
+          <br />
+          I’m a fast learner, prefer to keep learning and continue challenging
+          myself. I like to develop expertise in a number of areas over the
+          course of my life and career. I currently have a full-time commitment
+          at Presto Labs. Outside of my commitments I make online programming
+          courses and run a youtube channel called Kimbug. Feel free to get in
+          touch by any means of communication.
         </p>
 
         <ul>
