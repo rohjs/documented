@@ -8,6 +8,14 @@
     "description": "Appeared on Software Edu Festival 2020 as a guest"
   },
   {
+    "id": "revisolution",
+    "title": "Revisolution",
+    "status": true,
+    "time": 2017,
+    "categories": ["UI/UX Design", "Frontend Development", "Video Editing"],
+    "description": "A million voices. One document"
+  },
+  {
     "id": "marko",
     "title": "Marko",
     "status": true,
