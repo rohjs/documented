@@ -1,5 +1,13 @@
 [
   {
+    "id": "sef",
+    "title": "SEF 2020",
+    "status": true,
+    "time": 2020,
+    "categories": ["Naver Connect", "Talk Show"],
+    "description": "Appeared on Software Edu Festival 2020 as a guest"
+  },
+  {
     "id": "marko",
     "title": "Marko",
     "status": true,
