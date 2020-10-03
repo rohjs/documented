@@ -1,5 +1,13 @@
 [
   {
+    "id": "prismy",
+    "title": "prismyland/prismy",
+    "status": true,
+    "time": 2020,
+    "categories": ["Open Source Project Contributor"],
+    "description": "A maintainer of prismy: Simple and fast type safe server library for now.sh v2 and API routes of next.js"
+  },
+  {
     "id": "sef",
     "title": "SEF 2020",
     "status": true,
