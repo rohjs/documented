@@ -1,6 +1,4 @@
 import React, { SetStateAction, Dispatch } from 'react'
-import cx from 'classnames'
-
 import WorkBrief from './WorkBrief'
 import Blank from './Blank'
 

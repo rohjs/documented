@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { GetStaticProps } from 'next'
-
 import { getWorksData } from '../lib/works'
 import { Layout, WorkItem } from '../components'
 

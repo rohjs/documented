@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Content from './Content'
 import Head from './Head'
 import Sidebar from './Sidebar'

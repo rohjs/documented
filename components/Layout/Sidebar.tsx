@@ -24,8 +24,10 @@ const Sidebar = (): JSX.Element => {
               </a>
             </li>
             <li>
-              <a href='https://www.facebook.com/woohyeon.roh' target='_blank'>
-                Facebook →
+              <a
+                href='https://www.linkedin.com/in/rohwoohyeon/'
+                target='_blank'>
+                LinkedIn →
               </a>
             </li>
             <li>

@@ -1,7 +1,6 @@
 import React from 'react'
-
-import aboutList from '../static/data/about.json'
 import { Layout, Skill } from '../components'
+import aboutList from '../static/data/about.json'
 
 const Index = (): JSX.Element => (
   <div id='wrap'>
@@ -10,7 +9,7 @@ const Index = (): JSX.Element => (
         <h1 className='srOnly'>About</h1>
         <p>
           Hi, I’m Woohyeon, a frontend developer based in Seoul, Korea and yes,
-          I love designing and building digital products. For past 4+ years,
+          I love designing and building digital products. For past 3+ years,
           I've done working in startups, and collaborated with talented people
           to create digital products for both business and consumer use.
           <br />
