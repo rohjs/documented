@@ -41,7 +41,7 @@ const Sidebar = (): JSX.Element => {
           <Perks />
         </div>
         <p className='year'>
-          2016/2020 <sup>®</sup>
+          2017/2020 <sup>®</sup>
         </p>
       </div>
     </header>
