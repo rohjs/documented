@@ -1,8 +1,10 @@
-import React from 'react'
+import { useMemo } from 'react'
 
 import Perks from './Perks'
 
-const Sidebar = (): JSX.Element => {
+function Sidebar() {
+  const currentYear = useMemo(() => new Date().getFullYear(), [])
+
   return (
     <header className='sidebar'>
       <h1 className='name'>
@@ -19,21 +21,26 @@ const Sidebar = (): JSX.Element => {
         <div className='contact'>
           <ul className='links'>
             <li>
-              <a href='https://github.com/rohjs' target='_blank'>
+              <a
+                href='https://github.com/rohjs'
+                target='_blank'
+                rel='noreferrer'>
                 Github →
               </a>
             </li>
             <li>
               <a
                 href='https://www.linkedin.com/in/rohwoohyeon/'
-                target='_blank'>
+                target='_blank'
+                rel='noreferrer'>
                 LinkedIn →
               </a>
             </li>
             <li>
               <a
                 href='https://www.youtube.com/channel/UCFDbz39kFPvU0AUpgHx4ICw'
-                target='_blank'>
+                target='_blank'
+                rel='noreferrer'>
                 Youtube →
               </a>
             </li>
@@ -41,7 +48,7 @@ const Sidebar = (): JSX.Element => {
           <Perks />
         </div>
         <p className='year'>
-          2017/2020 <sup>®</sup>
+          2017/{currentYear} <sup>®</sup>
         </p>
       </div>
     </header>

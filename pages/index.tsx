@@ -1,8 +1,11 @@
 import React from 'react'
-import { Layout, Skill } from '../components'
-import aboutList from '../static/data/about.json'
+import type { NextPage } from 'next'
 
-const Index = (): JSX.Element => (
+import aboutList from 'public/data/about.json'
+
+import { Layout, Skill } from 'components'
+
+const Home: NextPage = () => (
   <div id='wrap'>
     <Layout>
       <section className='section'>
@@ -31,4 +34,4 @@ const Index = (): JSX.Element => (
   </div>
 )
 
-export default Index
+export default Home
