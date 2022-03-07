@@ -16,6 +16,6 @@ export const processor = unified()
   .use(rehypeHighlight)
   .use(rehypeStringify)
 
-export function renderMarkdown(input) {
-  return processor.processSync(input).toString()
+export function renderMarkdown(source: string) {
+  return processor.processSync(source).toString()
 }
