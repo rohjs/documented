@@ -1,9 +1,11 @@
-import React, { useState } from 'react'
-import { GetStaticProps } from 'next'
-import { getWorksData } from '../lib/works'
-import { Layout, WorkItem } from '../components'
+import React, { useMemo, useState } from 'react'
+import type { NextPage } from 'next'
 
-type TWorkData = {
+import { getWorks } from 'lib/works'
+
+import { Layout, WorkItem } from 'components'
+
+type Work = {
   id: string
   title: string
   status: boolean
@@ -13,23 +15,27 @@ type TWorkData = {
 }
 
 type WorksProps = {
-  worksData: TWorkData[]
+  works: Work[]
 }
 
-const Works = ({ worksData }: WorksProps): JSX.Element => {
+const Works: NextPage<WorksProps> = ({ works }) => {
   const [active, setActive] = useState<string>('')
-  const sortedWorksData = worksData.sort((a, b) => {
-    if (a.time > b.time) return -1
-    if (a.time < b.time) return 1
-    return 0
-  })
+  const sortedWorks = useMemo(
+    () =>
+      works.sort((a, b) => {
+        if (a.time > b.time) return -1
+        if (a.time < b.time) return 1
+        return 0
+      }),
+    []
+  )
 
   return (
     <Layout title='works'>
       <section className='sectionWide'>
         <h1 className='srOnly'>Works</h1>
         <ul className='works'>
-          {sortedWorksData.map((work: TWorkData) => {
+          {sortedWorks.map((work: Work) => {
             const { id, title, status, time, categories, description } = work
             return (
               <WorkItem
@@ -53,11 +59,12 @@ const Works = ({ worksData }: WorksProps): JSX.Element => {
 
 export default Works
 
-export const getStaticProps: GetStaticProps = async () => {
-  const worksData = getWorksData()
+export async function getStaticProps() {
+  const works = await getWorks()
+
   return {
     props: {
-      worksData
+      works
     }
   }
 }

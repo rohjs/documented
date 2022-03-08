@@ -10,10 +10,17 @@ main {
   }
 
   .gnbMenu {
+    position: relative;
     display: flex;
 
     li {
       margin-right: 0.75rem;
+
+      &:last-child {
+        position: absolute;
+        right: 0;
+        margin-right: 0;
+      }
 
       &.active {
         text-decoration: underline;

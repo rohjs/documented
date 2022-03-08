@@ -9,7 +9,7 @@ description: 'Find your travel buddy — A mobile app for solo travellers to mee
 
 # Marko
 
-<img src='/static/images/marco/mockup-1.jpg' alt='Marko' class='headerImg'/>
+<img src='/images/marco/mockup-1.jpg' alt='Marko' class='headerImg'/>
 
 ## 01. Idea
 
@@ -29,25 +29,25 @@ description: 'Find your travel buddy — A mobile app for solo travellers to mee
 #### A. 타겟 유저 설문 조사
 
 <div class='imgContainer'>
-  <img src='/static/images/marco/a-res-1.jpg' alt='해외 여행 시 한국인 동행을 구할 의사가 있습니까?' />
+  <img src='/images/marco/a-res-1.jpg' alt='해외 여행 시 한국인 동행을 구할 의사가 있습니까?' />
 </div>
 
 <div class='imgContainer'>
-  <img src='/static/images/marco/a-res-2.jpg' alt='있다고 대답한 경우, 그 이유는 무엇인가요?' />
+  <img src='/images/marco/a-res-2.jpg' alt='있다고 대답한 경우, 그 이유는 무엇인가요?' />
 </div>
 
 <div class='imgContainer'>
-  <img src='/static/images/marco/a-res-3.jpg' alt='없다고 대답한 경우, 그 이유는 무엇인가요?' />
+  <img src='/images/marco/a-res-3.jpg' alt='없다고 대답한 경우, 그 이유는 무엇인가요?' />
 </div>
 
 #### B. 현 유랑 카페 동행 행태 조사
 
 <div class='imgContainer'>
-  <img src='/static/images/marco/b-res-1.jpg' alt='동행을 희망하는 날짜' />
+  <img src='/images/marco/b-res-1.jpg' alt='동행을 희망하는 날짜' />
 </div>
 
 <div class='imgContainer'>
-  <img src='/static/images/marco/b-res-2.jpg' alt='동행 희망 기간' />
+  <img src='/images/marco/b-res-2.jpg' alt='동행 희망 기간' />
 </div>
 
 ## 03. Analysis
@@ -97,7 +97,7 @@ Simple, Quick and most importantly, Reliable.
 델리 공항에 내리자마자 동훈이는 자신이 여행 준비를 하지 않아도 너무 준비하지 않았다는 걸 느꼈다. 처음엔 막막하기만 했으나 그는 나름대로 인도에 적응하며 즐거운 여행을 하였다. 그러던 중 그는 우연히 인도 북부 라다크 지역이 아름답다는 이야기를 듣고 인도인이 운영하는 여행사에서 라다크 여행에 대해 알아보았다. 라다크에 가려면 지프차를 타고 육로로 40시간 이상 달려야 하는데, 이 투어를 이용하려면 자신을 포함해 총 6명의 사람을 모아야 한다고 여행사 직원이 말했다. 40시간 동안 말이 통하지 않은 외국인 친구들과 여행을 하는 것이 부담이 된 동훈이는 한국인 동행을 5명을 구하려고 한다. 인도 여행 카페에 동해 모집글을 올려도 되지만, 데이터도 부족하고 언제 답글이 달릴 지 모르기에 그는 답답하기만 하다.
 
 <div class='imgContainer'>
-  <img src='/static/images/marco/persona-1.jpg' alt='페르소나 A형' />
+  <img src='/images/marco/persona-1.jpg' alt='페르소나 A형' />
 </div>
 
 #### B. 수진, 23살, 휴학생
@@ -107,7 +107,7 @@ Simple, Quick and most importantly, Reliable.
 그런데 여행을 막상 떠나고 보니 아쉬움의 연속이다. 식사를 할 때 유럽 사람들의 1인분은 양이 너무 많아 음식을 남기기 일수고, 여러 음식을 먹어보고 싶은데 비용 부담으로 늘 한 가지 음식 먹는 것이 아쉬웠다. 페이스북에 올라오는 다른 여행자들의 사진처럼 그녀도 멋진 전신 사진을 찍고 싶은데 언어에 대한 부담 때문에 다른 외국인에게 사진을 찍어달라고 부탁할 수가 없었다. (한 번 용기를 내서 찍어달라고 했더니 한국인 정서에 맞지 않은 이상한 사진을 찍어서 속상하기만 했다.) 그녀는 똑같은 자세에 똑같은 표정의 셀카만 찍는 것도 지겹기 시작했다. 게다가 유럽 여행의 낭만 중 하나인 야경을 바라보며 맥주를 먹는 것은 치안 걱정으로 꿈도 꾸지 못했다. 이러한 소소한 아쉬움이 쌓여 여행의 즐거움이 사라지기 전에 수진이는 한국인 동행을 구해야겠다고 마음을 먹었다. 그녀는 지금 바르셀로나를 여행 중인데 어디서, 어떻게 한국인 여행자를 찾을 수 있을지 막막하다. 그리고 막상 찾았다 하더라도 그 사람이 이상한 사람이면 어떡하지, 자신이 있는 곳에서 멀리 떨어진 곳에 있으면 어떡하지 등 걱정이 앞선다.
 
 <div class='imgContainer'>
-  <img src='/static/images/marco/persona-2.jpg' alt='페르소나 B형' />
+  <img src='/images/marco/persona-2.jpg' alt='페르소나 B형' />
 </div>
 
 ## 07. Features & User Flows
@@ -158,7 +158,7 @@ Simple, Quick and most importantly, Reliable.
 </dl>
 </section>
 
-![User Flow Map](/static/images/marco/userflow.jpg)
+![User Flow Map](/images/marco/userflow.jpg)
 
 ## 08. Prototype
 

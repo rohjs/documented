@@ -1,4 +1,4 @@
-scss_files: 'src/**/*.scss'
+scss_files: 'styles/**/*.scss'
 
 linters:
   ColorVariable:

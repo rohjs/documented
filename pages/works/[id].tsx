@@ -1,34 +1,48 @@
 import React from 'react'
-import { GetStaticProps, GetStaticPaths } from 'next'
+import type { NextPage } from 'next'
 
-import { getAllWorkIds, getWorkData } from '../../lib/works'
-import { Layout, Loading, MarkdownRenderer } from '../../components'
+import { getWorkList, getWork } from 'lib/works'
 
-export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = getAllWorkIds()
-  return {
-    paths,
-    fallback: false
-  }
+import { Layout, Loading, MarkdownRenderer } from 'components'
+
+type WorkProps = {
+  source: string
 }
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
-  const workData = getWorkData(params.id as string)
-  return {
-    props: {
-      workData
-    }
-  }
-}
-
-const Work = ({ workData }): JSX.Element => {
+const Work: NextPage<WorkProps> = ({ source }) => {
   return (
     <Layout title='works'>
       <section className='section'>
-        {workData ? <MarkdownRenderer source={workData} /> : <Loading />}
+        {source ? <MarkdownRenderer source={source} /> : <Loading />}
       </section>
     </Layout>
   )
 }
 
 export default Work
+
+export async function getStaticPaths() {
+  const workList = await getWorkList()
+  const paths = workList.map((work) => {
+    return {
+      params: {
+        id: work.replace(/\.md$/, '')
+      }
+    }
+  })
+
+  return {
+    paths,
+    fallback: false
+  }
+}
+
+export async function getStaticProps({ params }) {
+  const work = await getWork(params.id)
+
+  return {
+    props: {
+      source: work
+    }
+  }
+}
