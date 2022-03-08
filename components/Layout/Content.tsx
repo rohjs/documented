@@ -21,6 +21,15 @@ function ContentLayout({ children }: ContentLayoutProps) {
           <li className={cx({ active: pathname === '/works' })}>
             <Link href="/works">Works</Link>
           </li>
+          <li>
+            <a
+              href="https://www.rohwoohyeon.com/resume/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              📄 Resume
+            </a>
+          </li>
         </ul>
       </nav>
 
